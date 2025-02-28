@@ -13,4 +13,9 @@ To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 ```{r}
 runif(10)
 ```
+```{r}
+x = 10
+x= 15
+print(x)
+```
 
