@@ -1,21 +1,41 @@
 ---
-title: "Personal Website"
+title: "Maxwell Chalekson"
+about:
+  template: broadside
+  image: profile_pic.jpeg
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/mchalekson
+    - text: Email
+      url: "mailto:mchaleks@bu.edu"
 ---
 
-This is a Quarto website.
+I am an incoming master's student in Data Science at Boston University, passionate about AI, machine learning, and data-driven problem-solving. At UCLA, I worked on AI reliability and optimization in the Trustworthy AI Lab, analyzing large language models and improving computational efficiency. I have developed AI-driven tools for learning, decision-making, and user experiences, with interests spanning business, education, health, and emerging technologies. I'm particularly fascinated by how AI can optimize human performance and enhance everyday life. Outside of work, I’m a marathon runner and bouldering enthusiast who enjoys tackling endurance challenges - both in fitness and complex AI problems. Always happy to connect and chat about AI, data science, or anything in between! Download [My resume](/Chalekson_Resume.pdf).
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## Education
 
-```{r}
-1 + 1
-```
+Boston University (BU) | Boston, MA
 
-```{r}
-runif(10)
-```
-```{r}
-x = 10
-x= 15
-print(x)
-```
+    M.S. in Data Science | Sept 2025 - May 2026
+
+University of California, Los Angeles (UCLA) | Los Angeles, CA
+
+    B.S. in Statistics and Data Science | Sept 2021 - June 2025
+
+## Experience
+
+Trustworthy AI | Research Assistant | Sept 2024 - Feb 2025
+
+UCLA | Undergraduate Researcher | May 2024 - Dec 2024
+
+UCLA | Undergraduate Teaching Assistant | Dec 2022 - Dec 2024
+
+Manhattan West | Data Analyst Intern | June 2023 - Aug 2023
+
+
+
+
+
+
 
