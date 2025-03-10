@@ -11,7 +11,7 @@ about:
       url: "mailto:mchaleks@bu.edu"
 ---
 
-I am an incoming master's student in Data Science at Boston University, passionate about AI, machine learning, and data-driven problem-solving. At UCLA, I worked on AI reliability and optimization in the Trustworthy AI Lab, analyzing large language models and improving computational efficiency. I have developed AI-driven tools for learning, decision-making, and user experiences, with interests spanning business, education, health, and emerging technologies. I'm particularly fascinated by how AI can optimize human performance and enhance everyday life. Outside of work, I’m a marathon runner and bouldering enthusiast who enjoys tackling endurance challenges - both in fitness and complex AI problems. Always happy to connect and chat about AI, data science, or anything in between! Download [My resume](/Chalekson_Resume.pdf).
+I am an incoming master's student in Data Science at Boston University, passionate about AI, machine learning, and data-driven problem-solving. At UCLA, I worked on AI reliability and optimization in the Trustworthy AI Lab, analyzing large language models and improving computational efficiency. I have developed AI-driven tools for learning, decision-making, and user experiences, with interests spanning business, education, health, and emerging technologies. I'm particularly fascinated by how AI can optimize human performance and enhance everyday life. Outside of work, I’m a marathon runner and bouldering enthusiast who enjoys tackling endurance challenges - both in fitness and complex AI problems. Always happy to connect and chat about AI, data science, or anything in between! Download my resume [here](/Chalekson_Resume.pdf).
 
 ## Education
 
