@@ -2,42 +2,67 @@
 title: "Maxwell Chalekson"
 about:
   template: broadside
-  image: profile_pic.jpeg
   links:
     - icon: github
       text: Github
       href: https://github.com/mchalekson
     - text: Email
       url: "mailto:mchaleks@bu.edu"
+format:
+  html:
+    css: styles.css
+    toc: false
 ---
 
-I am an incoming master's student in Data Science at Boston University, passionate about AI, machine learning, and data-driven problem-solving. At UCLA, I worked on AI reliability and optimization in the Trustworthy AI Lab, analyzing large language models and improving computational efficiency. I have developed AI-driven tools for learning, decision-making, and user experiences, with interests spanning business, education, health, and emerging technologies. I'm particularly fascinated by how AI can optimize human performance and enhance everyday life. 
 
-Outside of work, I’m a marathon runner and bouldering enthusiast who enjoys tackling endurance challenges - both in fitness and complex machine learning problems. Always happy to connect and chat about AI, data science, or anything in between! Download my resume [here](/Chalekson_Resume.pdf).
+```{=html}
+<div class="container">
+  
+  <img src="profile_pic.jpeg" alt="Maxwell Chalekson" class="profile-image">
+  
+  
+  <p class="intro-text">
+    I am an incoming <strong>M.S. Data Science student</strong> at <strong>Boston University</strong>, passionate about <strong>AI, machine learning, and data-driven problem-solving</strong>. 
+    At <strong>UCLA</strong>, I worked on <strong>AI reliability and optimization</strong> in the <strong>Trustworthy AI Lab</strong>, analyzing <strong>large language models</strong> and <strong>improving computational efficiency</strong>.
+  </p>
 
-## Education
+  <p class="intro-text">
+    My work focuses on developing <strong>AI-driven tools</strong> for <strong>learning, decision-making, and user experiences</strong>, with interests in <strong>business, education, health, and emerging technologies</strong>. 
+    I'm particularly fascinated by how AI can <strong>optimize human performance and enhance everyday life</strong>.
+  </p>
 
-Boston University (BU) | Boston, MA
+  <p class="intro-text">
+    Outside of work, I’m a <strong>marathon runner and bouldering enthusiast</strong> who enjoys tackling <strong>endurance challenges</strong>—both in fitness and <strong>complex machine learning problems</strong>.
+    Always happy to connect and chat about <strong>AI, data science, or anything in between</strong>!
+  </p>
 
-    M.S. in Data Science | Sept 2025 - May 2026
+  <a href="Chalekson_Resume.pdf" class="btn-primary">Download My Resume</a>
 
-University of California, Los Angeles (UCLA) | Los Angeles, CA
+</div>
 
-    B.S. in Statistics and Data Science | Sept 2021 - June 2025
+```
 
-## Experience
+### Education
 
-Trustworthy AI | Research Assistant | Sept 2024 - Feb 2025
+#### **Boston University (BU) | Boston, MA**  
 
-UCLA | Undergraduate Researcher | May 2024 - Dec 2024
+**M.S. in Data Science** (Sept 2025 - May 2026)  
 
-UCLA | Undergraduate Teaching Assistant | Dec 2022 - Dec 2024
+#### **University of California, Los Angeles (UCLA) | Los Angeles, CA**  
 
-Manhattan West | Data Analyst Intern | June 2023 - Aug 2023
+**B.S. in Statistics and Data Science** (Sept 2021 - June 2025) 
 
+### Experience
 
+#### **UCLA**  
 
+**Trustworthy AI Lab** (Sept 2024 - Feb 2025)  
 
+**ALISSTAIR Project** (May 2024 - Dec 2024)  
 
+**Undergraduate Teaching Assistant** (Dec 2022 - Dec 2024)  
 
+#### **Manhattan West** 
+
+**Data Analyst Intern** (June 2023 - Aug 2023)  
 

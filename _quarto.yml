@@ -5,20 +5,18 @@ website:
   navbar:
     right:
       - href: index.qmd
-        text: Landing Page
+        text: "⌂"
       - href: projects.qmd
-        text: Projects
+        text: "Projects"
+  search: false
 
 format:
   html:
-    theme: 
-    - litera
-    - brand
+    theme: flatly
     css: styles.css
-    toc: FALSE
+    toc: false
 
 editor: visual
 
 execute: 
   freeze: auto
-

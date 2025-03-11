@@ -9,36 +9,99 @@
   {
     "objectID": "projects.html",
     "href": "projects.html",
-    "title": "projects",
+    "title": "Projects",
     "section": "",
-    "text": "ALISSTAIR Implementation - UCLA STATS 10 Labs\n\n\n\nProject 2\nHere is my first project"
+    "text": "Undergraduate TA  UCLA - STATS 20\n        \n    \n\n    \n        \n            \n            ALISSTAIR Implementation  UCLA - STATS 10"
+  },
+  {
+    "objectID": "projects/learning_intern.html#active-quarters",
+    "href": "projects/learning_intern.html#active-quarters",
+    "title": "Learning Intern Project – UCLA STATS 20",
+    "section": "Active Quarters:",
+    "text": "Active Quarters:\nWinter 2023, Spring 2023, Winter 2024, Spring 2024, Summer 2024, Fall 2024"
+  },
+  {
+    "objectID": "projects/learning_intern.html#instructors",
+    "href": "projects/learning_intern.html#instructors",
+    "title": "Learning Intern Project – UCLA STATS 20",
+    "section": "Instructors:",
+    "text": "Instructors:\nDr. Michael Tsiang, Dr. Thomas Maierhofer, Dr. Ian McGovern, Dr. Edouardo Honig\nAs a Learning Intern (Undergraduate Teaching Assistant) for UCLA’s STATS 20, I supported over 320 students per quarter in mastering statistical programming in R, data manipulation, and fundamental data science concepts."
+  },
+  {
+    "objectID": "projects/learning_intern.html#key-contributions",
+    "href": "projects/learning_intern.html#key-contributions",
+    "title": "Learning Intern Project – UCLA STATS 20",
+    "section": "Key Contributions:",
+    "text": "Key Contributions:\n\nLed 12+ hours per week of group learning, office hours, and exam review sessions to strengthen student comprehension.\n\nAssisted in grading midterm exams, evaluating free-response questions, and providing constructive feedback to enhance student understanding.\n\nDesigned and refined practice problems, midterm, and final review materials to align with course objectives and improve student preparedness.\n\nWorked closely with faculty and PhD students to analyze common student errors, adjusting instructional methods to optimize learning outcomes.\n\nThrough this experience, I developed a strong foundation in teaching, mentorship, and instructional design, while deepening my expertise in R programming, statistical analysis, and data science education."
+  },
+  {
+    "objectID": "projects/ALISSTAIR_project.html#alisstair-integration-ucla-stats-10",
+    "href": "projects/ALISSTAIR_project.html#alisstair-integration-ucla-stats-10",
+    "title": "ALISSTAIR Integration - UCLA STATS 10 Labs",
+    "section": "ALISSTAIR Integration – UCLA STATS 10",
+    "text": "ALISSTAIR Integration – UCLA STATS 10\nAs part of a STATS 199 Directed Research project under Dr. Thomas Maierhofer, I integrated ALISSTAIR, an experimental large language model (LLM), into the STATS 10 labs at UCLA. This project aimed to enhance student learning by leveraging AI to support statistical programming, coding comprehension, and data analysis skills."
+  },
+  {
+    "objectID": "projects/ALISSTAIR_project.html#key-contributions",
+    "href": "projects/ALISSTAIR_project.html#key-contributions",
+    "title": "ALISSTAIR Integration - UCLA STATS 10 Labs",
+    "section": "Key Contributions",
+    "text": "Key Contributions\n\nRedesigned all five STATS 10 labs to incorporate AI-driven guidance, while preserving core statistical concepts.\n\nIntroduced real-world datasets (e.g., Spotify, Titanic) to enhance data literacy and engagement.\n\nDeveloped prompt engineering sections to help students craft precise AI queries for coding and statistical analysis.\n\nTested and evaluated ALISSTAIR’s effectiveness, identifying potential misuse and advocating for its responsible integration to improve learning outcomes.\n\nThis project is set to be fully implemented in Winter 2026.\n➡️ Try ALISSTAIR (Requires ChatGPT subscription)"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Maxwell Chalekson",
     "section": "",
-    "text": "I am an incoming master’s student in Data Science at Boston University, passionate about AI, machine learning, and data-driven problem-solving. At UCLA, I worked on AI reliability and optimization in the Trustworthy AI Lab, analyzing large language models and improving computational efficiency. I have developed AI-driven tools for learning, decision-making, and user experiences, with interests spanning business, education, health, and emerging technologies. I’m particularly fascinated by how AI can optimize human performance and enhance everyday life.\nOutside of work, I’m a marathon runner and bouldering enthusiast who enjoys tackling endurance challenges - both in fitness and complex machine learning problems. Always happy to connect and chat about AI, data science, or anything in between! Download my resume here."
+    "text": "I am an incoming M.S. Data Science student at Boston University, passionate about AI, machine learning, and data-driven problem-solving. \n    At UCLA, I worked on AI reliability and optimization in the Trustworthy AI Lab, analyzing large language models and improving computational efficiency.\n  \n  \n    My work focuses on developing AI-driven tools for learning, decision-making, and user experiences, with interests in business, education, health, and emerging technologies. \n    I'm particularly fascinated by how AI can optimize human performance and enhance everyday life.\n  \n  \n    Outside of work, I’m a marathon runner and bouldering enthusiast who enjoys tackling endurance challenges—both in fitness and complex machine learning problems.\n    Always happy to connect and chat about AI, data science, or anything in between!\n  \n  Download My Resume\n\n\nEducation\n\nBoston University (BU) | Boston, MA\nM.S. in Data Science (Sept 2025 - May 2026)\n\n\nUniversity of California, Los Angeles (UCLA) | Los Angeles, CA\nB.S. in Statistics and Data Science (Sept 2021 - June 2025)\n\n\n\nExperience\n\nUCLA\nTrustworthy AI Lab (Sept 2024 - Feb 2025)\nALISSTAIR Project (May 2024 - Dec 2024)\nUndergraduate Teaching Assistant (Dec 2022 - Dec 2024)\n\n\nManhattan West\nData Analyst Intern (June 2023 - Aug 2023)"
   },
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
     "title": "Maxwell Chalekson",
     "section": "Education",
-    "text": "Education\nBoston University (BU) | Boston, MA\nM.S. in Data Science | Sept 2025 - May 2026\nUniversity of California, Los Angeles (UCLA) | Los Angeles, CA\nB.S. in Statistics and Data Science | Sept 2021 - June 2025"
+    "text": "Education\n\n\n&lt;h3&gt;Boston University (BU) | Boston, MA&lt;/h3&gt;\n&lt;p&gt;M.S. in Data Science | Sept 2025 - May 2026&lt;/p&gt;\n\n\n&lt;h3&gt;University of California, Los Angeles (UCLA) | Los Angeles, CA&lt;/h3&gt;\n&lt;p&gt;B.S. in Statistics and Data Science | Sept 2021 - June 2025&lt;/p&gt;"
   },
   {
     "objectID": "index.html#experience",
     "href": "index.html#experience",
     "title": "Maxwell Chalekson",
     "section": "Experience",
-    "text": "Experience\nTrustworthy AI | Research Assistant | Sept 2024 - Feb 2025\nUCLA | Undergraduate Researcher | May 2024 - Dec 2024\nUCLA | Undergraduate Teaching Assistant | Dec 2022 - Dec 2024\nManhattan West | Data Analyst Intern | June 2023 - Aug 2023"
+    "text": "Experience\n\n\n&lt;h3&gt;Trustworthy AI&lt;/h3&gt;\n&lt;p&gt;&lt;strong&gt;Research Assistant&lt;/strong&gt; | Sept 2024 - Feb 2025&lt;/p&gt;\n\n\n&lt;h3&gt;UCLA&lt;/h3&gt;\n&lt;p&gt;&lt;strong&gt;Undergraduate Researcher&lt;/strong&gt; | May 2024 - Dec 2024&lt;/p&gt;\n\n\n&lt;h3&gt;UCLA&lt;/h3&gt;\n&lt;p&gt;&lt;strong&gt;Undergraduate Teaching Assistant&lt;/strong&gt; | Dec 2022 - Dec 2024&lt;/p&gt;\n\n\n&lt;h3&gt;Manhattan West&lt;/h3&gt;\n&lt;p&gt;&lt;strong&gt;Data Analyst Intern&lt;/strong&gt; | June 2023 - Aug 2023&lt;/p&gt;"
+  },
+  {
+    "objectID": "projects/stats20_project.html#active-quarters",
+    "href": "projects/stats20_project.html#active-quarters",
+    "title": "Learning Intern Project – UCLA STATS 20",
+    "section": "Active Quarters:",
+    "text": "Active Quarters:\nWinter 2023, Spring 2023, Winter 2024, Spring 2024, Summer 2024, Fall 2024"
+  },
+  {
+    "objectID": "projects/stats20_project.html#instructors",
+    "href": "projects/stats20_project.html#instructors",
+    "title": "Learning Intern Project – UCLA STATS 20",
+    "section": "Instructors:",
+    "text": "Instructors:\nDr. Michael Tsiang, Dr. Thomas Maierhofer, Dr. Ian McGovern, Dr. Edouardo Honig\nAs a Learning Intern (Undergraduate Teaching Assistant) for UCLA’s STATS 20, I supported over 320 students per quarter in mastering statistical programming in R, data manipulation, and fundamental data science concepts."
+  },
+  {
+    "objectID": "projects/stats20_project.html#key-contributions",
+    "href": "projects/stats20_project.html#key-contributions",
+    "title": "Learning Intern Project – UCLA STATS 20",
+    "section": "Key Contributions:",
+    "text": "Key Contributions:\n\nLed 12+ hours per week of group learning, office hours, and exam review sessions to strengthen student comprehension.\n\nAssisted in grading midterm exams, evaluating free-response questions, and providing constructive feedback to enhance student understanding.\n\nDesigned and refined practice problems, midterm, and final review materials to align with course objectives and improve student preparedness.\n\nWorked closely with faculty and PhD students to analyze common student errors, adjusting instructional methods to optimize learning outcomes.\n\nThrough this experience, I developed a strong foundation in teaching, mentorship, and instructional design, while deepening my expertise in R programming, statistical analysis, and data science education."
+  },
+  {
+    "objectID": "projects/stats20_project.html",
+    "href": "projects/stats20_project.html",
+    "title": "Undergraduate TA – UCLA STATS 20",
+    "section": "",
+    "text": "Undergraduate TA – UCLA STATS 20\n\n  \n    As a Learning Intern (Undergraduate Teaching Assistant) for UCLA's STATS 20,\n    I supported over 320 students per quarter in mastering statistical programming in R, \n    data manipulation, and fundamental data science concepts.\n  \n\n  \n      Served as a TA in Winter 2023 – Spring 2024, Summer 2024, Fall 2024, under the instruction of \n      Dr. Michael Tsiang, Dr. Thomas Maierhofer, Dr. Ian McGovern, Edouardo Honig.\n  \n\n  Key Contributions\n\n  \n      \n          Led 12+ hours per week \n          of group learning, office hours, and exam review sessions.\n      \n\n      \n          Assisted in grading midterm exams \n          , evaluating free-response questions, and providing detailed feedback.\n      \n\n      \n          Designed and refined practice problems, midterms, and final review materials \n          aligned with course objectives.\n      \n\n      \n          Worked with faculty and PhD students \n          to analyze student challenges and adjust instructional methods for better learning outcomes."
   },
   {
     "objectID": "projects/ALISSTAIR_project.html",
     "href": "projects/ALISSTAIR_project.html",
     "title": "ALISSTAIR Integration - UCLA STATS 10 Labs",
     "section": "",
-    "text": "As part of a STATS 199 Directed Research project under Dr. Thomas Maierhofer, I integrated ALISSTAIR, an experimental large language model (LLM), into the STATS 10 labs at UCLA. This project aimed to enhance student learning by leveraging AI to support coding and statistical comprehension.\n\nKey Contributions\n\nRevised all five labs to incorporate AI-driven guidance while maintaining core statistical concepts.\nIntroduced real-world data sets (e.g., Spotify, Titanic) to improve data literacy and engagement.\nDesigned prompt engineering sections to teach students how to ask precise AI queries for coding and analysis.\nEvaluated ALISSTAIR’s effectiveness, identifying potential misuse and advocating for its integration to improve learning outcomes.\n\nThis project will be implemented during the Winter 2026 quarter.\nTry ALISSTAIR (Requires ChatGPT subscription)"
+    "text": "ALISSTAIR Integration – UCLA STATS 10\n\n    \n        As part of a STATS 199 Directed Research project under Dr. Thomas Maierhofer,\n        I integrated ALISSTAIR, an experimental large language model (LLM), \n        into the STATS 10 labs at UCLA. This project aimed to enhance student learning \n        by leveraging AI to support statistical programming, coding comprehension, and data analysis skills.\n    \n\n    \n        Project conducted during Summer 2024 – Fall 2024.\n    \n\n    Key Contributions\n\n    \n        \n            Redesigned all five STATS 10 labs \n            to incorporate AI-driven guidance, while preserving core statistical concepts.\n        \n\n        \n            Introduced real-world datasets \n            (e.g., Spotify, Titanic) to enhance data literacy and engagement.\n        \n\n        \n            Developed prompt engineering sections \n            to help students craft precise AI queries for coding and statistical analysis.\n        \n\n        \n            Tested and evaluated ALISSTAIR’s effectiveness \n            , identifying potential misuse and advocating for its responsible integration to improve learning outcomes.\n        \n    \n\n    \n        This project is set to be fully implemented in Winter 2026.\n    \n\n    Try ALISSTAIR"
   }
 ]
