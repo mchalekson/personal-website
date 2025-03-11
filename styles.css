@@ -272,3 +272,135 @@ h2 {
     flex: 1;
     text-align: left;
 }
+
+/* Ensures About Page is Centered */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 750px; /* Adjust width */
+    margin: auto;
+}
+
+/* Ensures intro text is centered */
+.intro-text {
+    text-align: center;
+    max-width: 600px; /* Keep readability */
+    line-height: 1.6;
+}
+
+/* Centers buttons */
+.btn-primary {
+    display: inline-block;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* Ensures entire page is centered */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 800px; /* Adjusted for better centering */
+    margin: auto;
+}
+
+/* Profile Image Centering */
+.profile-image {
+    width: 200px; /* Adjust size */
+    height: 200px;
+    border-radius: 50%; /* Ensures circular shape */
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+/* Centers text and ensures uniform alignment */
+.intro-text {
+    text-align: center;
+    max-width: 600px; /* Keep readability */
+    line-height: 1.6;
+    margin: auto; /* Ensures centering */
+}
+
+/* Centers buttons */
+.btn-primary {
+    display: inline-block;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* Fixes GitHub & Email Button Alignment */
+.about-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Spacing between buttons */
+    margin-top: 20px;
+    
+/* Fix container centering */
+.container {
+    max-width: 750px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Ensures perfect centering */
+}
+
+/* Fix GitHub & Email Alignment */
+.quarto-about-links {
+    display: flex;
+    justify-content: center; /* Centers the icons */
+    align-items: center;
+    margin-top: 20px; /* Adds space between resume & icons */
+}
+
+/* ✅ Ensure Entire About Section is Centered */
+.about-text {
+    max-width: 700px;  /* Keeps text readable */
+    margin: auto;      /* Centers horizontally */
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* ✅ Ensure About Page is Fully Centered */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 800px;  /* Adjust width */
+    margin: auto;
+}
+
+/* ✅ Fix Profile Image Alignment */
+.profile-image {
+    width: 200px; /* Adjust size */
+    height: 200px;
+    border-radius: 50%; /* Ensures circular shape */
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+/* ✅ Center the Resume Button */
+.btn-primary {
+    display: inline-block;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* ✅ Center GitHub & Email Links */
+.about-links {
+    display: flex;
+    justify-content: center; /* Centers buttons */
+    gap: 15px; /* Adds spacing between buttons */
+    margin-top: 20px;
+}
