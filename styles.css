@@ -1,1 +1,274 @@
-/* css styles */
+/* Apple-Like Minimalist Design */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #333;
+    background-color: #FAFAFA;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Centered Content */
+.container {
+    max-width: 750px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Profile Image - Circular */
+.profile-image {
+    width: 180px; /* Set size */
+    height: 180px;
+    border-radius: 50%; /* Ensures circular shape */
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+/* Fix Home Page Layout */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Fix images stretching */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Headings */
+h1, h2, h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #111;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #222;
+    margin-top: 20px;
+}
+
+/* Buttons */
+.btn-primary {
+    display: inline-block;
+    background-color: #007AFF;
+    color: white;
+    font-weight: 600;
+    padding: 10px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    margin-top: 15px;
+}
+
+.btn-primary:hover {
+    background-color: #005BB5;
+}
+
+/* Fix Key Contributions Formatting */
+.key-points {
+    text-align: left;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    max-width: 650px;
+}
+
+/* Bullet Point Formatting */
+.key-points li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    line-height: 1.5;
+    flex-wrap: wrap; /* Allows text to wrap properly */
+    word-break: normal;
+}
+
+/* Bullet Point Symbol */
+.key-points li::before {
+    content: "•";
+    color: #007AFF;
+    font-size: 18px;
+    flex-shrink: 0;
+}
+
+/* Ensures text stays on the same line */
+.key-points li strong {
+    font-weight: 600;
+    white-space: nowrap;
+    display: inline;
+}
+
+/* Prevents text from breaking awkwardly */
+.key-points li span {
+    display: inline;
+    white-space: normal;
+}
+
+/* Prevents floating commas */
+.key-points li strong + span {
+    margin-left: 3px;
+}
+
+/* Ensures bullets align properly */
+.key-points li {
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+/* Fix Project Image Sizing */
+.project-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Fix Project Section */
+.projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+/* Fix Individual Project Item */
+.project-item {
+    background: white;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-item:hover {
+    transform: scale(1.03);
+}
+
+/* Fix Project Image Display */
+.project-item img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Remove underlines from project links */
+.project-item a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Fix Spacing Inside Project Cards */
+.project-item a:hover {
+    text-decoration: none;
+    color: #007AFF;
+}
+
+/* Fix ALISSTAIR & TA project text alignment */
+.project-container {
+    max-width: 750px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Fix Home Page Layout */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Fix Mobile Responsiveness */
+@media (max-width: 768px) {
+    .key-points {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+    .container {
+        max-width: 90%;
+    }
+
+    .project-container {
+        max-width: 100%;
+        padding: 10px;
+    }
+}
+
+.contributions-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    text-align: left;
+    max-width: 650px;
+    margin: auto;
+}
+
+.contribution p {
+    margin: 5px 0 0;
+    line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+    .contributions-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.key-contributions {
+    display: flex;
+    flex-direction: column;
+    gap: 12px; /* Spacing between items */
+    max-width: 650px;
+}
+
+.contribution-item {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: baseline;
+}
+
+.contribution-item strong {
+    flex-shrink: 0;
+    min-width: 250px; /* Ensures bold text stays aligned */
+    text-align: left;
+}
+
+.contribution-item span {
+    flex: 1;
+    text-align: left;
+}

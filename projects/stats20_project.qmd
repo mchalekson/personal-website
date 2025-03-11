@@ -1,0 +1,49 @@
+---
+title: "Undergraduate TA – UCLA STATS 20"
+format: html
+---
+
+```{=html}
+<div class="container">
+
+  <img src="stats20_photo.jpeg" alt="STATS 20 Learning Intern Project" class="project-image">
+
+  <h1>Undergraduate TA – UCLA STATS 20</h1>
+
+  <p class="description">
+    As a <strong>Learning Intern (Undergraduate Teaching Assistant)</strong> for <strong>UCLA's STATS 20</strong>,
+    I supported over <strong>320 students per quarter</strong> in mastering <strong>statistical programming in R</strong>, 
+    data manipulation, and fundamental data science concepts.
+  </p>
+
+  <p class="project-timeline">
+      <em>Served as a TA in <strong>Winter 2023 – Spring 2024, Summer 2024, Fall 2024</strong>, under the instruction of 
+      <strong>Dr. Michael Tsiang, Dr. Thomas Maierhofer, Dr. Ian McGovern, Edouardo Honig</strong>.</em>
+  </p>
+
+  <h2>Key Contributions</h2>
+
+  <div class="key-contributions">
+      <div class="contribution-item">
+          <strong>Led 12+ hours per week</strong> 
+          <span>of group learning, office hours, and exam review sessions.</span>
+      </div>
+
+      <div class="contribution-item">
+          <strong>Assisted in grading midterm exams</strong> 
+          <span>, evaluating free-response questions, and providing detailed feedback.</span>
+      </div>
+
+      <div class="contribution-item">
+          <strong>Designed and refined practice problems, midterms, and final review materials</strong> 
+          <span>aligned with course objectives.</span>
+      </div>
+
+      <div class="contribution-item">
+          <strong>Worked with faculty and PhD students</strong> 
+          <span>to <strong>analyze student challenges and adjust instructional methods</strong> for better learning outcomes.</span>
+      </div>
+  </div>
+
+</div>
+```

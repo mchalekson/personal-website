@@ -3,20 +3,53 @@ title: "ALISSTAIR Integration - UCLA STATS 10 Labs"
 format: html
 ---
 
-![](ALISSTAIR_photo.png){width=50%}
+```{=html}
+<div class="container">
+    
+    <img src="ALISSTAIR_photo.png" alt="ALISSTAIR Integration Project" class="project-image">
+    
+    <h1>ALISSTAIR Integration – UCLA STATS 10</h1>
 
-As part of a **STATS 199 Directed Research** project under Dr. Thomas Maierhofer, I integrated ALISSTAIR, an experimental large language model (LLM), into the STATS 10 labs at UCLA. This project aimed to enhance student learning by leveraging AI to support coding and statistical comprehension.
+    <p class="description">
+        As part of a <strong>STATS 199 Directed Research</strong> project under <strong>Dr. Thomas Maierhofer</strong>,
+        I integrated <strong>ALISSTAIR</strong>, an experimental <strong>large language model (LLM)</strong>, 
+        into the <strong>STATS 10 labs at UCLA</strong>. This project aimed to <strong>enhance student learning</strong> 
+        by leveraging AI to support <strong>statistical programming, coding comprehension, and data analysis skills</strong>.
+    </p>
 
-# Key Contributions
+    <p class="project-timeline">
+        <em>Project conducted during <strong>Summer 2024 – Fall 2024</strong>.</em>
+    </p>
 
-- Revised all five labs to incorporate AI-driven guidance while maintaining core statistical concepts.
+    <h2>Key Contributions</h2>
 
-- Introduced real-world data sets (e.g., Spotify, Titanic) to improve data literacy and engagement.
+    <div class="key-contributions">
+        <div class="contribution-item">
+            <strong>Redesigned all five STATS 10 labs</strong> 
+            <span>to incorporate <strong>AI-driven guidance</strong>, while preserving core statistical concepts.</span>
+        </div>
 
-- Designed prompt engineering sections to teach students how to ask precise AI queries for coding and analysis.
+        <div class="contribution-item">
+            <strong>Introduced real-world datasets</strong> 
+            <span>(e.g., <strong>Spotify, Titanic</strong>) to enhance <strong>data literacy and engagement</strong>.</span>
+        </div>
 
-- Evaluated ALISSTAIR's effectiveness, identifying potential misuse and advocating for its integration to improve learning outcomes.
+        <div class="contribution-item">
+            <strong>Developed prompt engineering sections</strong> 
+            <span>to help students craft <strong>precise AI queries</strong> for coding and statistical analysis.</span>
+        </div>
 
-This project will be implemented during the **Winter 2026 quarter**.
+        <div class="contribution-item">
+            <strong>Tested and evaluated ALISSTAIR’s effectiveness</strong> 
+            <span>, identifying potential misuse and advocating for its responsible integration to improve learning outcomes.</span>
+        </div>
+    </div>
 
-[**Try ALISSTAIR**](https://chat.openai.com/g/g-QfDmRy9AB-alisstair-stats-10) *(Requires ChatGPT subscription)*
+    <p class="call-to-action" style="margin-top: 30px;">
+        This project is set to be <strong>fully implemented in Winter 2026</strong>.
+    </p>
+
+    <a href="https://chat.openai.com/g/g-QfDmRy9AB-alisstair-stats-10" class="btn-primary">Try ALISSTAIR</a>
+
+</div>
+```
