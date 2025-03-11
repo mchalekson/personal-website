@@ -11,14 +11,14 @@
     "href": "projects.html",
     "title": "projects",
     "section": "",
-    "text": "Project 1\n\n\nProject 2"
+    "text": "ALISSTAIR Implementation - UCLA STATS 10 Labs\n\n\n\nProject 2\nHere is my first project"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Maxwell Chalekson",
     "section": "",
-    "text": "I am an incoming master’s student in Data Science at Boston University, passionate about AI, machine learning, and data-driven problem-solving. At UCLA, I worked on AI reliability and optimization in the Trustworthy AI Lab, analyzing large language models and improving computational efficiency. I have developed AI-driven tools for learning, decision-making, and user experiences, with interests spanning business, education, health, and emerging technologies. I’m particularly fascinated by how AI can optimize human performance and enhance everyday life. Outside of work, I’m a marathon runner and bouldering enthusiast who enjoys tackling endurance challenges - both in fitness and complex AI problems. Always happy to connect and chat about AI, data science, or anything in between! Download My resume."
+    "text": "I am an incoming master’s student in Data Science at Boston University, passionate about AI, machine learning, and data-driven problem-solving. At UCLA, I worked on AI reliability and optimization in the Trustworthy AI Lab, analyzing large language models and improving computational efficiency. I have developed AI-driven tools for learning, decision-making, and user experiences, with interests spanning business, education, health, and emerging technologies. I’m particularly fascinated by how AI can optimize human performance and enhance everyday life.\nOutside of work, I’m a marathon runner and bouldering enthusiast who enjoys tackling endurance challenges - both in fitness and complex machine learning problems. Always happy to connect and chat about AI, data science, or anything in between! Download my resume here."
   },
   {
     "objectID": "index.html#education",
@@ -33,5 +33,12 @@
     "title": "Maxwell Chalekson",
     "section": "Experience",
     "text": "Experience\nTrustworthy AI | Research Assistant | Sept 2024 - Feb 2025\nUCLA | Undergraduate Researcher | May 2024 - Dec 2024\nUCLA | Undergraduate Teaching Assistant | Dec 2022 - Dec 2024\nManhattan West | Data Analyst Intern | June 2023 - Aug 2023"
+  },
+  {
+    "objectID": "projects/ALISSTAIR_project.html",
+    "href": "projects/ALISSTAIR_project.html",
+    "title": "ALISSTAIR Integration - UCLA STATS 10 Labs",
+    "section": "",
+    "text": "As part of a STATS 199 Directed Research project under Dr. Thomas Maierhofer, I integrated ALISSTAIR, an experimental large language model (LLM), into the STATS 10 labs at UCLA. This project aimed to enhance student learning by leveraging AI to support coding and statistical comprehension.\n\nKey Contributions\n\nRevised all five labs to incorporate AI-driven guidance while maintaining core statistical concepts.\nIntroduced real-world data sets (e.g., Spotify, Titanic) to improve data literacy and engagement.\nDesigned prompt engineering sections to teach students how to ask precise AI queries for coding and analysis.\nEvaluated ALISSTAIR’s effectiveness, identifying potential misuse and advocating for its integration to improve learning outcomes.\n\nThis project will be implemented during the Winter 2026 quarter.\nTry ALISSTAIR (Requires ChatGPT subscription)"
   }
 ]

@@ -6,7 +6,6 @@ website:
     right:
       - href: index.qmd
         text: Landing Page
-      - about.qmd
       - href: projects.qmd
         text: Projects
 
@@ -16,7 +15,7 @@ format:
     - litera
     - brand
     css: styles.css
-    toc: true
+    toc: FALSE
 
 editor: visual
 

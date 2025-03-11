@@ -1,0 +1,22 @@
+---
+title: "ALISSTAIR Integration - UCLA STATS 10 Labs"
+format: html
+---
+
+![](ALISSTAIR_photo.png){width=50%}
+
+As part of a **STATS 199 Directed Research** project under Dr. Thomas Maierhofer, I integrated ALISSTAIR, an experimental large language model (LLM), into the STATS 10 labs at UCLA. This project aimed to enhance student learning by leveraging AI to support coding and statistical comprehension.
+
+# Key Contributions
+
+- Revised all five labs to incorporate AI-driven guidance while maintaining core statistical concepts.
+
+- Introduced real-world data sets (e.g., Spotify, Titanic) to improve data literacy and engagement.
+
+- Designed prompt engineering sections to teach students how to ask precise AI queries for coding and analysis.
+
+- Evaluated ALISSTAIR's effectiveness, identifying potential misuse and advocating for its integration to improve learning outcomes.
+
+This project will be implemented during the **Winter 2026 quarter**.
+
+[**Try ALISSTAIR**](https://chat.openai.com/g/g-QfDmRy9AB-alisstair-stats-10) *(Requires ChatGPT subscription)*

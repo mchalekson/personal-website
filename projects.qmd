@@ -2,6 +2,13 @@
 title: "projects"
 ---
 
-### Project 1
+### ALISSTAIR Implementation - UCLA STATS 10 Labs
+
+[![](ALISSTAIR_photo.png)](/projects/ALISSTAIR_project.qmd)
+
 
 ### Project 2
+
+
+
+Here is my first [project](/projects/learning_intern.qmd)
