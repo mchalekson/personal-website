@@ -1,5 +1,5 @@
 ---
-title: "Maxwell Chalekson"
+title: ""
 about:
   template: broadside
   links:
