@@ -8,7 +8,7 @@ about:
       href: https://github.com/mchalekson
     - icon: envelope
       text: Email
-      href: "mailto:mchaleks@bu.edu"
+      href: "mailto:mchalekson@u.northwestern.edu"
 format:
   html:
     css: styles.css
