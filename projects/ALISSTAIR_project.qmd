@@ -1,0 +1,57 @@
+---
+title: "ALISSTAIR Integration - UCLA STATS 10 Labs"
+format:
+  html:
+    css: styles.css
+---
+
+
+```{=html}
+<div class="container">
+
+    <p><a href="projects.html">← Back to Projects</a></p>
+
+    
+    <img src="ALISSTAIR_photo.png" alt="ALISSTAIR Integration Project" class="project-image">
+    
+    <h1>ALISSTAIR Integration – UCLA STATS 10</h1>
+
+    <p class="description">
+        As part of a <strong>STATS 199 Directed Research</strong> project under <strong>Dr. Thomas Maierhofer</strong>,
+        I integrated <strong>ALISSTAIR</strong>, an experimental <strong>large language model (LLM)</strong>, 
+        into the <strong>STATS 10 labs at UCLA</strong>. This project aimed to <strong>enhance student learning</strong> 
+        by leveraging AI to support <strong>statistical programming, coding comprehension, and data analysis skills</strong>.
+    </p>
+
+    <h2>Key Contributions</h2>
+
+    <div class="key-contributions">
+        <div class="contribution-item">
+            <strong>Redesigned all five STATS 10 labs</strong>
+            <span>to incorporate <strong>AI-driven guidance</strong>, while preserving core statistical concepts.</span>
+        </div>
+
+        <div class="contribution-item">
+            <strong>Introduced real-world datasets</strong> 
+            <span>(e.g., <strong>Spotify, Titanic</strong>) to enhance <strong>data literacy and engagement</strong>.</span>
+        </div>
+
+        <div class="contribution-item">
+            <strong>Developed prompt engineering sections</strong>
+            <span>to help students craft <strong>precise AI queries</strong> for coding and statistical analysis.</span>
+        </div>
+
+        <div class="contribution-item">
+            <strong>Tested and evaluated ALISSTAIR’s effectiveness</strong>
+            <span>, identifying potential misuse and advocating for its responsible integration to improve learning outcomes.</span>
+        </div>
+    </div>
+
+    <p class="call-to-action">
+        This project is set to be <strong>fully implemented in Winter 2026</strong>.
+    </p>
+
+    <a href="https://chat.openai.com/g/g-QfDmRy9AB-alisstair-stats-10" class="btn-primary">Try ALISSTAIR</a>
+
+</div>
+```
