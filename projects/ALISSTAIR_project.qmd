@@ -7,6 +7,9 @@ format:
 
 ```{=html}
 <div class="container">
+
+    <p><a href="projects.html">← Back to Projects</a></p>
+
     
     <img src="ALISSTAIR_photo.png" alt="ALISSTAIR Integration Project" class="project-image">
     

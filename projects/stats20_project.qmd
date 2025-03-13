@@ -9,6 +9,9 @@ format:
 ```{=html}
 <div class="container">
 
+  <p><a href="projects.html">← Back to Projects</a></p>
+
+
   <img src="stats20_photo.jpeg" alt="STATS 20 Learning Intern Project" class="project-image">
 
   <h1>Undergraduate TA – UCLA STATS 20</h1>

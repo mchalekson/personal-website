@@ -4,9 +4,9 @@ project:
 website:
   navbar:
     right:
-      - href: index.qmd
+      - href: index.html
         text: "⌂"
-      - href: projects.qmd
+      - href: projects.html
         text: "Projects"
   search: false
 
@@ -14,6 +14,8 @@ format:
   html:
     theme: flatly
     css: styles.css
+    self-contained: false
+    embedded-resources: false
     toc: false
 
 editor: visual
