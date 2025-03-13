@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>index</title>
+<title>Projects</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,6 +29,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -66,11 +67,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">⌂</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
+    <a class="nav-link active" href="./projects.html" aria-current="page"> 
 <span class="menu-text">Projects</span></a>
   </li>  
 </ul>
@@ -86,67 +87,48 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-broadside column-page">
-  <div class="about-main">
-    <div class="about-entity" style="background-image: url('')"></div>
-    <div class="about-contents"><main class="content" id="quarto-document-content">
-<div class="container">
-  <!-- ✅ Centered Profile Image -->
-  <img src="profile_pic.jpeg" alt="Maxwell Chalekson" class="profile-image">
-  <!-- ✅ Wrap All Text Inside Centered div -->
-  <div class="about-text">
-    <h1>Maxwell Chalekson</h1>
-    <p>
-      I am an incoming <strong>M.S. Data Science student</strong> at <strong>Northwestern University</strong>, passionate about <strong>AI, machine learning, and data-driven problem-solving</strong>. 
-      At <strong>UCLA</strong>, I worked on <strong>AI reliability and optimization</strong> in the <strong>Trustworthy AI Lab</strong>, analyzing <strong>large language models</strong> and <strong>improving computational efficiency</strong>.
-    </p>
-    <p>
-      My work focuses on developing <strong>AI-driven tools</strong> for <strong>learning, decision-making, and user experiences</strong>, with interests in <strong>business, education, health, and emerging technologies</strong>. 
-      I'm particularly fascinated by how AI can <strong>optimize human performance and enhance everyday life</strong>.
-    </p>
-    <p>
-      Outside of work, I’m a <strong>marathon runner and bouldering enthusiast</strong> who enjoys tackling <strong>endurance challenges</strong>—both in fitness and <strong>complex machine learning problems</strong>.
-      Always happy to connect and chat about <strong>AI, data science, or anything in between</strong>!
-    </p>
-  </div>
-  <!-- ✅ Centered Resume Button -->
-  <a href="Chalekson_Resume.pdf" class="btn-primary">Download My Resume</a>
-  <!-- ✅ Education Section -->
-  <div class="education">
-    <h2>Education</h2>
-    <p><strong>Northwestern University</strong> | Chicago, IL</p>
-    <p>M.S. in Data Science (Sept 2025 - Aug 2026)</p>
-    <p><strong>University of California, Los Angeles (UCLA)</strong> | Los Angeles, CA</p>
-    <p>B.S. in Statistics and Data Science (Sept 2021 - June 2025)</p>
-  </div>
-  <!-- ✅ Experience Section -->
-  <div class="experience">
-    <h2>Experience</h2>
-    <p><strong>Trustworthy AI Lab - UCLA</strong></p>
-    <p>Research Assistant (Sept 2024 - Feb 2025)</p>
-    <p><strong>UCLA</strong></p>
-    <p>Undergraduate Researcher (May 2024 - Dec 2024)</p>
-    <p>Undergraduate Teaching Assistant (Dec 2022 - Dec 2024)</p>
-    <p><strong>Manhattan West</strong></p>
-    <p>Data Analyst Intern (June 2023 - Aug 2023)</p>
-  </div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Projects</h1>
 </div>
 
 
-</main></div>
+
+<div class="quarto-title-meta">
+
+    
+  
+    
   </div>
-  <div class="about-links">
-  <a href="https://github.com/mchalekson" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
-  <a href="mailto:mchaleks@bu.edu" class="about-link" rel="" target="">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text">Email</span>
-  </a>
+  
+
+
+</header>
+
+
+<div class="projects-container">
+    
+    <div class="project-item">
+        <a href="./projects/stats20_project.html">
+            <img src="stats20_photo.jpeg" alt="STATS 20 Learning Intern Project">
+            <h3 class="anchored">Undergraduate TA <br> UCLA - STATS 20</h3>
+        </a>
+    </div>
+
+    <div class="project-item">
+        <a href="./projects/alisstair_project.qmd">
+            <img src="ALISSTAIR_photo.png" alt="ALISSTAIR Labs Integration Project">
+            <h3 class="anchored">ALISSTAIR Implementation <br> UCLA - STATS 10</h3>
+        </a>
+    </div>
+
 </div>
-</div>
- <!-- /main -->
+
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -167,6 +149,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
