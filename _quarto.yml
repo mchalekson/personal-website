@@ -5,16 +5,16 @@ project:
 website:
   navbar:
     right:
-      - href: index.html
+      - href: /index.html
         text: "⌂"
-      - href: projects.html
+      - href: /projects.html
         text: "Projects"
   search: false
 
 format:
   html:
     theme: flatly
-    css: styles.css
+    css: /styles.css
     self-contained: false
     embedded-resources: false
     toc: false
