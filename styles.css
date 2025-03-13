@@ -362,7 +362,7 @@ h2 {
     margin-top: 20px; /* Adds space between resume & icons */
 }
 
-/* ✅ Ensure Entire About Section is Centered */
+/* Ensure Entire About Section is Centered */
 .about-text {
     max-width: 700px;  /* Keeps text readable */
     margin: auto;      /* Centers horizontally */
@@ -370,7 +370,7 @@ h2 {
     line-height: 1.6;
 }
 
-/* ✅ Ensure About Page is Fully Centered */
+/* Ensure About Page is Fully Centered */
 .container {
     display: flex;
     flex-direction: column;
@@ -381,7 +381,7 @@ h2 {
     margin: auto;
 }
 
-/* ✅ Fix Profile Image Alignment */
+/* Fix Profile Image Alignment */
 .profile-image {
     width: 200px; /* Adjust size */
     height: 200px;
@@ -390,14 +390,14 @@ h2 {
     margin-bottom: 20px;
 }
 
-/* ✅ Center the Resume Button */
+/* Center the Resume Button */
 .btn-primary {
     display: inline-block;
     text-align: center;
     margin-top: 15px;
 }
 
-/* ✅ Center GitHub & Email Links */
+/* Center GitHub & Email Links */
 .about-links {
     display: flex;
     justify-content: center; /* Centers buttons */
