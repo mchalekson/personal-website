@@ -18,7 +18,7 @@ execute:
     </div>
 
     <div class="project-item">
-        <a href="/projects/ALISSTAIR_project.qmd">
+        <a href="/projects/alisstair_project.qmd">
             <img src="ALISSTAIR_photo.png" alt="ALISSTAIR Labs Integration Project">
             <h3>ALISSTAIR Implementation <br> UCLA - STATS 10</h3>
         </a>
