@@ -1,7 +1,9 @@
----
 title: "ALISSTAIR Integration - UCLA STATS 10 Labs"
-format: html
+format:
+  html:
+    css: styles.css
 ---
+
 
 ```{=html}
 <div class="container">
@@ -17,15 +19,11 @@ format: html
         by leveraging AI to support <strong>statistical programming, coding comprehension, and data analysis skills</strong>.
     </p>
 
-    <p class="project-timeline">
-        <em>Project conducted during <strong>Summer 2024 – Fall 2024</strong>.</em>
-    </p>
-
     <h2>Key Contributions</h2>
 
     <div class="key-contributions">
         <div class="contribution-item">
-            <strong>Redesigned all five STATS 10 labs</strong> 
+            <strong>Redesigned all five STATS 10 labs</strong>
             <span>to incorporate <strong>AI-driven guidance</strong>, while preserving core statistical concepts.</span>
         </div>
 
@@ -35,17 +33,17 @@ format: html
         </div>
 
         <div class="contribution-item">
-            <strong>Developed prompt engineering sections</strong> 
+            <strong>Developed prompt engineering sections</strong>
             <span>to help students craft <strong>precise AI queries</strong> for coding and statistical analysis.</span>
         </div>
 
         <div class="contribution-item">
-            <strong>Tested and evaluated ALISSTAIR’s effectiveness</strong> 
+            <strong>Tested and evaluated ALISSTAIR’s effectiveness</strong>
             <span>, identifying potential misuse and advocating for its responsible integration to improve learning outcomes.</span>
         </div>
     </div>
 
-    <p class="call-to-action" style="margin-top: 30px;">
+    <p class="call-to-action">
         This project is set to be <strong>fully implemented in Winter 2026</strong>.
     </p>
 

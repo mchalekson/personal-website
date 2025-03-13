@@ -1,7 +1,10 @@
 ---
 title: "Undergraduate TA – UCLA STATS 20"
-format: html
+format:
+  html:
+    css: styles.css
 ---
+
 
 ```{=html}
 <div class="container">

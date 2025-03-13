@@ -10,7 +10,7 @@ body {
     padding: 0;
 }
 
-/* Centered Content */
+/*  Fixes Overall Page Layout */
 .container {
     max-width: 750px;
     margin: 40px auto;
@@ -18,40 +18,22 @@ body {
     background: white;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    text-align: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; 
+    text-align: center;
 }
 
-/* Profile Image - Circular */
+/*  Fix Profile Image (Centered & Circular) */
 .profile-image {
-    width: 180px; /* Set size */
+    width: 180px;
     height: 180px;
-    border-radius: 50%; /* Ensures circular shape */
+    border-radius: 50%;
     object-fit: cover;
     margin-bottom: 20px;
 }
 
-/* Fix Home Page Layout */
-.home-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    max-width: 800px;
-    margin: auto;
-    padding: 20px;
-}
-
-/* Fix images stretching */
-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
-/* Headings */
+/*  Fixes Headings */
 h1, h2, h3 {
     text-align: center;
     margin-bottom: 10px;
@@ -70,7 +52,14 @@ h2 {
     margin-top: 20px;
 }
 
-/* Buttons */
+/* Fixes Images (Prevents Stretching) */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/*  Fixes Buttons */
 .btn-primary {
     display: inline-block;
     background-color: #007AFF;
@@ -87,69 +76,35 @@ h2 {
     background-color: #005BB5;
 }
 
-/* Fix Key Contributions Formatting */
-.key-points {
-    text-align: left;
-    list-style-type: none;
-    padding: 0;
-    margin-top: 20px;
-    max-width: 650px;
-}
-
-/* Bullet Point Formatting */
-.key-points li {
-    font-size: 16px;
-    margin-bottom: 10px;
+/*  Fixes Key Contributions Layout */
+.key-contributions {
     display: flex;
-    align-items: flex-start;
-    gap: 8px;
-    line-height: 1.5;
-    flex-wrap: wrap; /* Allows text to wrap properly */
-    word-break: normal;
+    flex-direction: column;
+    gap: 12px; 
+    max-width: 650px;
+    text-align: left;
 }
 
-/* Bullet Point Symbol */
-.key-points li::before {
-    content: "•";
-    color: #007AFF;
-    font-size: 18px;
-    flex-shrink: 0;
-}
-
-/* Ensures text stays on the same line */
-.key-points li strong {
-    font-weight: 600;
-    white-space: nowrap;
-    display: inline;
-}
-
-/* Prevents text from breaking awkwardly */
-.key-points li span {
-    display: inline;
-    white-space: normal;
-}
-
-/* Prevents floating commas */
-.key-points li strong + span {
-    margin-left: 3px;
-}
-
-/* Ensures bullets align properly */
-.key-points li {
-    align-items: flex-start;
+/* Fixes Contribution Item Alignment */
+.contribution-item {
+    display: flex;
     flex-wrap: wrap;
+    gap: 10px;
+    align-items: baseline;
 }
 
-/* Fix Project Image Sizing */
-.project-image {
-    width: 100%;
-    max-width: 500px;
-    height: auto;
-    border-radius: 8px;
-    margin-bottom: 20px;
+.contribution-item strong {
+    flex-shrink: 0;
+    min-width: 250px;
+    text-align: left;
 }
 
-/* Fix Project Section */
+.contribution-item span {
+    flex: 1;
+    text-align: left;
+}
+
+/*  Fixes Project Page Layout */
 .projects-container {
     display: flex;
     justify-content: center;
@@ -158,7 +113,7 @@ h2 {
     margin-top: 40px;
 }
 
-/* Fix Individual Project Item */
+/*  Fixes Individual Project Item */
 .project-item {
     background: white;
     border-radius: 12px;
@@ -173,7 +128,7 @@ h2 {
     transform: scale(1.03);
 }
 
-/* Fix Project Image Display */
+/*  Fixes Project Image Display */
 .project-item img {
     width: 100%;
     height: 160px;
@@ -181,43 +136,42 @@ h2 {
     border-radius: 8px;
 }
 
-/* Remove underlines from project links */
+/*  Removes Underlines from Project Links */
 .project-item a {
     text-decoration: none;
     color: inherit;
 }
 
-/* Fix Spacing Inside Project Cards */
 .project-item a:hover {
     text-decoration: none;
     color: #007AFF;
 }
 
-/* Fix ALISSTAIR & TA project text alignment */
-.project-container {
-    max-width: 750px;
+/* Fixes About Section Layout */
+.about-text {
+    max-width: 700px;
     margin: auto;
-    padding: 20px;
-}
-
-/* Fix Home Page Layout */
-.home-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     text-align: center;
-    max-width: 800px;
-    margin: auto;
-    padding: 20px;
+    line-height: 1.6;
 }
 
-/* Fix Mobile Responsiveness */
-@media (max-width: 768px) {
-    .key-points {
-        max-width: 100%;
-        padding: 0 20px;
-    }
+/*  Fixes GitHub & Email Links Alignment */
+.about-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
 
+/*  Fixes Resume Button Alignment */
+.btn-primary {
+    display: inline-block;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/*  Mobile Responsive Adjustments */
+@media (max-width: 768px) {
     .container {
         max-width: 90%;
     }
@@ -226,181 +180,13 @@ h2 {
         max-width: 100%;
         padding: 10px;
     }
-}
 
-.contributions-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    text-align: left;
-    max-width: 650px;
-    margin: auto;
-}
+    .key-contributions {
+        max-width: 100%;
+        padding: 0 20px;
+    }
 
-.contribution p {
-    margin: 5px 0 0;
-    line-height: 1.4;
-}
-
-@media (max-width: 768px) {
     .contributions-grid {
         grid-template-columns: 1fr;
     }
-}
-
-.key-contributions {
-    display: flex;
-    flex-direction: column;
-    gap: 12px; /* Spacing between items */
-    max-width: 650px;
-}
-
-.contribution-item {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    align-items: baseline;
-}
-
-.contribution-item strong {
-    flex-shrink: 0;
-    min-width: 250px; /* Ensures bold text stays aligned */
-    text-align: left;
-}
-
-.contribution-item span {
-    flex: 1;
-    text-align: left;
-}
-
-/* Ensures About Page is Centered */
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    max-width: 750px; /* Adjust width */
-    margin: auto;
-}
-
-/* Ensures intro text is centered */
-.intro-text {
-    text-align: center;
-    max-width: 600px; /* Keep readability */
-    line-height: 1.6;
-}
-
-/* Centers buttons */
-.btn-primary {
-    display: inline-block;
-    text-align: center;
-    margin-top: 15px;
-}
-
-/* Ensures entire page is centered */
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    max-width: 800px; /* Adjusted for better centering */
-    margin: auto;
-}
-
-/* Profile Image Centering */
-.profile-image {
-    width: 200px; /* Adjust size */
-    height: 200px;
-    border-radius: 50%; /* Ensures circular shape */
-    object-fit: cover;
-    margin-bottom: 20px;
-}
-
-/* Centers text and ensures uniform alignment */
-.intro-text {
-    text-align: center;
-    max-width: 600px; /* Keep readability */
-    line-height: 1.6;
-    margin: auto; /* Ensures centering */
-}
-
-/* Centers buttons */
-.btn-primary {
-    display: inline-block;
-    text-align: center;
-    margin-top: 15px;
-}
-
-/* Fixes GitHub & Email Button Alignment */
-.about-links {
-    display: flex;
-    justify-content: center;
-    gap: 15px; /* Spacing between buttons */
-    margin-top: 20px;
-    
-/* Fix container centering */
-.container {
-    max-width: 750px;
-    margin: 40px auto;
-    padding: 20px;
-    background: white;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Ensures perfect centering */
-}
-
-/* Fix GitHub & Email Alignment */
-.quarto-about-links {
-    display: flex;
-    justify-content: center; /* Centers the icons */
-    align-items: center;
-    margin-top: 20px; /* Adds space between resume & icons */
-}
-
-/* Ensure Entire About Section is Centered */
-.about-text {
-    max-width: 700px;  /* Keeps text readable */
-    margin: auto;      /* Centers horizontally */
-    text-align: center;
-    line-height: 1.6;
-}
-
-/* Ensure About Page is Fully Centered */
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    max-width: 800px;  /* Adjust width */
-    margin: auto;
-}
-
-/* Fix Profile Image Alignment */
-.profile-image {
-    width: 200px; /* Adjust size */
-    height: 200px;
-    border-radius: 50%; /* Ensures circular shape */
-    object-fit: cover;
-    margin-bottom: 20px;
-}
-
-/* Center the Resume Button */
-.btn-primary {
-    display: inline-block;
-    text-align: center;
-    margin-top: 15px;
-}
-
-/* Center GitHub & Email Links */
-.about-links {
-    display: flex;
-    justify-content: center; /* Centers buttons */
-    gap: 15px; /* Adds spacing between buttons */
-    margin-top: 20px;
 }
