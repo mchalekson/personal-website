@@ -5,9 +5,9 @@ project:
 website:
   navbar:
     right:
-      - href: index.html
+      - href: personal-website/index.html
         text: "⌂"
-      - href: projects.html
+      - href: personal-website/projects.html
         text: "Projects"
   search: false
 
