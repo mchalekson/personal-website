@@ -9,13 +9,13 @@ execute:
 ::: {#projects-container}
 
 ::: {#project-item}
-[![Undergraduate TA – UCLA STATS 20](stats20_photo.jpeg)](personal-website/stats20_project.html)  
+[![Undergraduate TA – UCLA STATS 20](stats20_photo.jpeg)](stats20_project.html)  
 **Undergraduate TA**  
 UCLA - STATS 20
 :::
 
 ::: {#project-item}
-[![ALISSTAIR Implementation – UCLA STATS 10](ALISSTAIR_photo.png)](personal-website/ALISSTAIR_project.html)  
+[![ALISSTAIR Implementation – UCLA STATS 10](ALISSTAIR_photo.png)](ALISSTAIR_project.html)  
 **ALISSTAIR Implementation**  
 UCLA - STATS 10
 :::
