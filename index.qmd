@@ -15,8 +15,12 @@ format:
     toc: false
 ---
 
+
 ```{=html}
 <div class="container">
+
+<!-- Update href paths to include /personal-website/ -->
+<a href="/personal-website/index.html">⌂</a> | <a href="/personal-website/projects.html">Projects</a>
   
   <!-- centered Profile Image -->
   <img src="profile_pic.jpeg" alt="Maxwell Chalekson" class="profile-image">
