@@ -190,3 +190,11 @@ img {
         grid-template-columns: 1fr;
     }
 }
+
+.copyright {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 14px;
+    color: #333;
+}
