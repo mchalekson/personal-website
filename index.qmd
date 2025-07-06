@@ -30,12 +30,7 @@ format:
     <h1>Maxwell Chalekson</h1>
     <p>
       I am an incoming <strong>M.S. Data Science student</strong> at <strong>Northwestern University</strong>, passionate about <strong>AI, machine learning, and data-driven problem-solving</strong>. 
-      At <strong>UCLA</strong>, I worked on <strong>AI reliability and optimization</strong> in the <strong>Trustworthy AI Lab</strong>, analyzing <strong>large language models</strong> and <strong>improving computational efficiency</strong>.
-    </p>
-
-    <p>
-      My work focuses on developing <strong>AI-driven tools</strong> for <strong>learning, decision-making, and user experiences</strong>, with interests in <strong>business, education, health, and emerging technologies</strong>. 
-      I'm particularly fascinated by how AI can <strong>optimize human performance and enhance everyday life</strong>.
+      At <strong>UCLA</strong>, I worked on <strong>AI reliability and optimization</strong> in the <strong>Trustworthy AI Lab</strong>, analyzing <strong>large language models</strong> and <strong>improving computational efficiency</strong>. At Northwestern University at <strong> NICO </strong>, I am currently resesarching how multimodal AI can help team dynamics bolster work ethics and generate knowledge.
     </p>
 
     <p>
@@ -60,6 +55,10 @@ format:
   <!-- Experience Section -->
   <div class="experience">
     <h2>Experience</h2>
+    
+    <strong>Northwestern University</strong></p>
+    <p><strong>NICO (Northwestern Institute on Complex Systems)
+    <p><strong>Research Assistant (June 2025 - Present)</p>
     
     <p><strong>Trustworthy AI Lab - UCLA</strong></p>
     <p>Research Assistant (Sept 2024 - Feb 2025)</p>
