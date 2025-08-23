@@ -24,14 +24,16 @@ body {
     text-align: center;
 }
 
-/*  Fix Profile Image (Centered & Circular) */
 .profile-image {
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 20px;
+    width: 200px;              /* adjust size as needed */
+    height: 200px;
+    border-radius: 50%;        /* makes the image circular */
+    object-fit: cover;         /* crops instead of stretching */
+    object-position: center;   /* centers on the middle */
+    display: block;            /* so margin auto works */
+    margin: 0 auto;            /* centers the whole image in container */
 }
+
 
 /*  Fixes Headings */
 h1, h2, h3 {
