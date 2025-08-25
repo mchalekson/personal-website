@@ -87,7 +87,7 @@ img{max-width:100%;display:block;border-radius:12px}
 }
 .about-grid{display:grid;grid-template-columns:1fr auto;gap:22px;align-items:center}
 .about-photo{width:min(540px,60vw);height:auto;border-radius:12px}
-.about-text{max-width:38ch;color:var(--muted)}
+.about-text{max-width:48ch;color:var(--muted)}
 @media (max-width:900px){
   .grid{grid-template-columns:1fr}
   .about-grid{grid-template-columns:1fr;gap:16px}
@@ -97,8 +97,9 @@ img{max-width:100%;display:block;border-radius:12px}
 /* === Mobile menu (hamburger) === */
 .menu-toggle{
   display:none; /* shown under 900px */
-  appearance:none; border:0; background:transparent; padding:10px;
-  border-radius:12px; cursor:pointer;
+  -webkit-appearance:none; appearance:none;
+  background:transparent; border:0; padding:10px;
+  border-radius:12px; cursor:pointer; color:var(--text);
 }
 .menu-toggle:focus-visible{ outline:2px solid var(--accent2); outline-offset:2px }
 
@@ -146,25 +147,17 @@ img{max-width:100%;display:block;border-radius:12px}
 }
 .mobile-menu__links a:hover{ background:color-mix(in oklab, var(--card) 70%, var(--text) 6%) }
 
-/* --- Harden mobile button look (fixes the white circle) --- */
-.menu-toggle{
-  -webkit-appearance: none;
-  appearance: none;
-  background: transparent;      /* never a filled circle */
-  border: 0;
-  padding: 10px;
-  border-radius: 12px;
-  color: var(--text);
-}
-.menu-toggle:focus-visible{
-  outline: 2px solid var(--accent2);
-  outline-offset: 2px;
-}
-/* a little visual feedback when the sheet is open */
-.menu-open .menu-toggle{ background: color-mix(in oklab, var(--card) 75%, var(--text) 6%); }
-
 /* Hide desktop nav on phones, show hamburger */
 @media (max-width:900px){
   .navlinks{ display:none; }
   .menu-toggle{ display:inline-flex; align-items:center; justify-content:center; }
 }
+
+/* Article pages */
+.project-hero{margin:0 0 14px}
+.project-hero img{width:100%;height:auto;border-radius:16px;border:1px solid var(--border)}
+.lead{font-size:1.05rem;color:var(--text)}
+.muted{color:var(--muted)}
+.bullets{line-height:1.6}
+.breadcrumbs{color:var(--muted);margin:8px 0 20px}
+.breadcrumbs a{color:var(--muted)}
