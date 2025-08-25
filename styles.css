@@ -93,3 +93,61 @@ img{max-width:100%;display:block;border-radius:12px}
   .about-grid{grid-template-columns:1fr;gap:16px}
   .about-photo{width:100%}
 }
+
+/* === Mobile menu (hamburger) === */
+.menu-toggle{
+  display:none; /* shown under 900px */
+  appearance:none; border:0; background:transparent; padding:10px;
+  border-radius:12px; cursor:pointer;
+}
+.menu-toggle:focus-visible{ outline:2px solid var(--accent2); outline-offset:2px }
+
+/* Hamburger icon */
+.menu-toggle .bars{ position:relative; width:26px; height:18px; display:block }
+.menu-toggle .bars::before,
+.menu-toggle .bars::after,
+.menu-toggle .bars span{
+  content:""; position:absolute; left:0; right:0; height:2px; border-radius:2px;
+  background:var(--text); transition:transform .25s ease, opacity .2s ease;
+}
+.menu-toggle .bars::before{ top:0 }
+.menu-toggle .bars span{ top:8px }
+.menu-toggle .bars::after{ bottom:0 }
+
+/* When open (turn into X) */
+.menu-toggle[aria-expanded="true"] .bars::before{ transform:translateY(8px) rotate(45deg) }
+.menu-toggle[aria-expanded="true"] .bars span{ opacity:0 }
+.menu-toggle[aria-expanded="true"] .bars::after{ transform:translateY(-8px) rotate(-45deg) }
+
+/* Fullscreen panel */
+.mobile-menu{
+  position:fixed; inset:0; z-index:40;
+  background:color-mix(in oklab, var(--bg) 80%, transparent);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+  backdrop-filter: blur(14px) saturate(140%);
+  opacity:0; pointer-events:none; transition:opacity .22s ease;
+}
+.menu-open .mobile-menu{ opacity:1; pointer-events:auto }
+
+.mobile-menu__sheet{
+  max-width:720px; margin:90px auto 0; padding:16px;
+}
+.mobile-menu__card{
+  background:var(--card); border:1px solid var(--border);
+  border-radius:16px; box-shadow:var(--shadow);
+  padding:8px;
+}
+.mobile-menu__links{
+  display:flex; flex-direction:column; gap:4px; padding:8px;
+}
+.mobile-menu__links a{
+  display:flex; justify-content:space-between; align-items:center;
+  padding:14px 16px; border-radius:12px; color:var(--text);
+}
+.mobile-menu__links a:hover{ background:color-mix(in oklab, var(--card) 70%, var(--text) 6%) }
+
+/* Hide desktop nav on phones, show hamburger */
+@media (max-width:900px){
+  .navlinks{ display:none; }
+  .menu-toggle{ display:inline-flex; align-items:center; justify-content:center; }
+}
