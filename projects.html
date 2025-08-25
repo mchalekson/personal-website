@@ -1,36 +1,51 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Corrected the path -->
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Projects — Maxwell Chalekson</title>
+  <link rel="stylesheet" href="styles.css?v=final1">
+  <link rel="icon" href="assets/favicon.svg" />
 </head>
 <body>
+<header class="header">
+  <div class="navbar container">
+    <div class="brand"><span class="brand-badge">MC</span><small>Max Chalekson</small></div>
+    <nav class="navlinks">
+      <a href="index.html">Home</a>
+      <a class="active" href="projects.html">Projects</a>
+      <a href="publications.html">Publications</a>
+    </nav>
+  </div>
+</header>
 
-    <div class="container">
-        <a href="index.html">⌂</a> | <a href="projects.html">Projects</a>
+<main class="container">
+  <h1 class="headline" style="font-size:40px;margin:28px 0;">Projects</h1>
 
-        <div class="projects-container">
-            <div class="project-item">
-                <a href="stats20_project.html"> 
-                    <img src="stats20_photo.jpeg" alt="STATS 20 Learning Intern Project">
-                    <h3>Undergraduate TA <br> UCLA - STATS 20</h3>
-                </a>
-            </div>
+  <h2 class="eyebrow" style="letter-spacing:.18em;margin:8px 0 12px">Current</h2>
+  <div class="grid">
+    <a class="card" href="nico-convergence.html">
+      <div class="thumb"><img src="nico-photo.png" alt="NICO convergence project thumbnail"></div>
+      <h3>Idea Convergence/Divergence — NICO</h3>
+      <p>Convergence bursts, human↔LLM agreement, insight summaries.</p>
+    </a>
+  </div>
 
-            <div class="project-item">
-                <a href="ALISSTAIR_project.html">  
-                    <img src="ALISSTAIR_photo.png" alt="ALISSTAIR Labs Integration Project">
-                    <h3>ALISSTAIR Implementation <br> UCLA - STATS 10</h3>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="copyright">
-        &copy; 2025 Maxwell Chalekson
-    </div>
-    
+  <h2 class="eyebrow" style="letter-spacing:.18em;margin:36px 0 12px">Earlier</h2>
+  <div class="grid">
+    <a class="card" href="stats20_project.html">
+      <div class="thumb"><img src="stats20_photo.jpeg" alt="UCLA STATS 20 photo"></div>
+      <h3>Undergraduate TA — UCLA STATS 20</h3>
+      <p>Teaching support, assessment, and materials design.</p>
+    </a>
 
+    <a class="card" href="ALISSTAIR_project.html">
+      <div class="thumb thumb--fit"><img src="ALISSTAIR_photo.png" alt="ALISSTAIR UI screenshot"></div>
+      <h3>ALISSTAIR Implementation — UCLA STATS 10</h3>
+      <p>LLM‑guided labs; evaluation and rollout.</p>
+    </a>
+  </div>
+</main>
+
+<footer class="footer"><div class="container">© 2025 Maxwell Chalekson</div></footer>
 </body>
 </html>

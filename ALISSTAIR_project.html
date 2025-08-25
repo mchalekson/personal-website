@@ -1,63 +1,55 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ALISSTAIR Integration - UCLA STATS 10 Labs</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Corrected the path -->
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ALISSTAIR — UCLA STATS 10</title>
+  <link rel="stylesheet" href="styles.css?v=final1">
+  <link rel="icon" href="assets/favicon.svg" />
 </head>
 <body>
+<header class="header">
+  <div class="navbar container">
+    <div class="brand"><span class="brand-badge">MC</span><small>Max Chalekson</small></div>
+    <nav class="navlinks">
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="publications.html">Publications</a>
+    </nav>
+  </div>
+</header>
 
-    <div class="container">
-        <a href="index.html">⌂</a> | <a href="projects.html">Projects</a>
+<main class="container narrow">
+  <h1 class="headline" style="font-size:40px;margin:28px 0 8px">ALISSTAIR — UCLA STATS 10</h1>
+  <p class="dek" style="margin-bottom:22px">
+    ALISSTAIR (Artificial Language Intelligence System for Statistical Teaching Aid and Individualized Response) is an
+    LLM‑guided set of labs and helpers designed to support introductory statistics learners. We focused on clarity,
+    step‑by‑step feedback, and lightweight evaluation to inform improvements across the quarter.
+  </p>
 
-        <img src="ALISSTAIR_photo.png" alt="ALISSTAIR Integration Project" class="project-image">
-        
-        <h1>ALISSTAIR Integration – UCLA STATS 10</h1>
+  <div class="card" style="padding:0;overflow:hidden">
+    <div class="thumb thumb--fit"><img src="ALISSTAIR_photo.png" alt="ALISSTAIR UI screenshot"></div>
+  </div>
 
-        <p class="description">
-            As part of a <strong>STATS 199 Directed Research</strong> project under <strong>Dr. Thomas Maierhofer</strong>,
-            I integrated <strong>ALISSTAIR</strong>, an experimental <strong>large language model (LLM)</strong>, 
-            into the <strong>STATS 10 labs at UCLA</strong>. This project aimed to <strong>enhance student learning</strong> 
-            by leveraging AI to support <strong>statistical programming, coding comprehension, and data analysis skills</strong>.
-        </p>
+  <section style="margin-top:28px">
+    <h2 class="eyebrow">My role</h2>
+    <ul>
+      <li>Co‑designed lab prompts and grading rubrics to align with course objectives.</li>
+      <li>Built evaluation checks to track misunderstanding patterns and iterate on prompts.</li>
+      <li>Coordinated rollout & documentation for TAs and students.</li>
+    </ul>
+  </section>
 
-        <h2>Key Contributions</h2>
+  <section style="margin-top:28px">
+    <h2 class="eyebrow">Try it</h2>
+    <p>
+      Explore the live ALISSTAIR demo:
+      <a class="btn btn--outline" href="https://chat.openai.com/g/g-QfDmRy9AB-alisstair-stats-10" target="_blank" rel="noopener">
+        Launch ALISSTAIR
+      </a>
+    </p>
+  </section>
+</main>
 
-        <div class="key-contributions">
-            <div class="contribution-item">
-                <strong>Redesigned all five STATS 10 labs</strong>
-                <span>to incorporate <strong>AI-driven guidance</strong>, while preserving core statistical concepts.</span>
-            </div>
-
-            <div class="contribution-item">
-                <strong>Introduced real-world datasets</strong> 
-                <span>(e.g., <strong>Spotify, Titanic</strong>) to enhance <strong>data literacy and engagement</strong>.</span>
-            </div>
-
-            <div class="contribution-item">
-                <strong>Developed prompt engineering sections</strong>
-                <span>to help students craft <strong>precise AI queries</strong> for coding and statistical analysis.</span>
-            </div>
-
-            <div class="contribution-item">
-                <strong>Tested and evaluated ALISSTAIR’s effectiveness</strong>
-                <span>, identifying potential misuse and advocating for its responsible integration to improve learning outcomes.</span>
-            </div>
-        </div>
-
-        <p class="call-to-action">
-            This project is set to be <strong>fully implemented in Winter 2026</strong>.
-        </p>
-
-        <a href="https://chat.openai.com/g/g-QfDmRy9AB-alisstair-stats-10" class="btn-primary">Try ALISSTAIR</a>
-
-    </div>
-
-    <div class="copyright">
-        &copy; 2025 Maxwell Chalekson
-    </div>
-    
-
+<footer class="footer"><div class="container">© 2025 Maxwell Chalekson</div></footer>
 </body>
 </html>
