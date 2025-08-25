@@ -3,24 +3,27 @@
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Publications — Maxwell Chalekson</title>
-  <link rel="stylesheet" href="styles.css?v=final2">
+  <link rel="stylesheet" href="styles.css?v=final3">
 </head>
 <body>
 <header class="header">
   <div class="navbar container">
     <div class="brand"><span class="brand-badge">MC</span><small>Max Chalekson</small></div>
 
+    <!-- Desktop nav -->
     <nav class="navlinks">
       <a href="index.html">Home</a>
       <a href="projects.html">Projects</a>
       <a class="active" href="publications.html">Publications</a>
     </nav>
 
+    <!-- Mobile hamburger -->
     <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
       <span class="bars"><span></span></span>
     </button>
   </div>
 
+  <!-- Mobile sheet -->
   <div id="mobile-menu" class="mobile-menu" hidden>
     <div class="mobile-menu__sheet">
       <div class="mobile-menu__card">
@@ -36,20 +39,70 @@
 
 <main class="container narrow">
   <h1 class="headline" style="font-size:40px;margin:28px 0;">Publications</h1>
-  <p class="dek">Selected works and manuscripts will appear here.</p>
+  <p class="dek">Selected manuscripts, talks, and works‑in‑progress.</p>
+
+  <!-- Work in progress / preprints -->
+  <section style="margin-top:28px">
+    <h2 class="eyebrow" style="letter-spacing:.18em;margin:0 0 10px">Preprints & Work in Progress</h2>
+    <ol style="padding-left:18px; margin:0">
+      <li style="margin:10px 0">
+        <strong>Idea Convergence/Divergence in Scientific Teams</strong> (working title).<br>
+        <span class="muted">Maxwell Chalekson, Evey Huang, Brian Uzzi (alphabetical). Manuscript in preparation, NICO, 2025.</span>
+        <div class="muted" style="margin-top:6px">
+          Detecting convergence bursts and divergence in group discussions with multimodal annotation and human↔LLM agreement metrics; actionable summaries for decision support.
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <!-- Talks -->
+  <section style="margin-top:28px">
+    <h2 class="eyebrow" style="letter-spacing:.18em;margin:0 0 10px">Talks & Presentations</h2>
+    <ol style="padding-left:18px; margin:0">
+      <li style="margin:10px 0">
+        <strong>ALISSTAIR: LLM‑Guided Labs for Introductory Statistics</strong> (invited talk).<br>
+        <span class="muted">Texas State University, 2024.</span>
+        <div class="muted" style="margin-top:6px">
+          Shared design choices for step‑by‑step feedback, lightweight evaluation, and classroom rollout; lessons learned from deployment in UCLA STATS 10.
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <!-- Teaching / reports (optional lightweight section you can expand later) -->
+  <section style="margin-top:28px">
+    <h2 class="eyebrow" style="letter-spacing:.18em;margin:0 0 10px">Teaching & Reports</h2>
+    <ol style="padding-left:18px; margin:0">
+      <li style="margin:10px 0">
+        <strong>ALISSTAIR Implementation — UCLA STATS 10</strong> (course report & materials).<br>
+        <span class="muted">LLM‑guided lab helpers; evaluation framework and continuous improvements across the quarter.</span>
+      </li>
+    </ol>
+  </section>
+
+  <p class="muted" style="margin-top:28px">
+    For updates or draft requests, email <a href="mailto:mchalekson@u.northwestern.edu">mchalekson@u.northwestern.edu</a>.
+  </p>
 </main>
 
 <footer class="footer"><div class="container">© 2025 Maxwell Chalekson</div></footer>
 
 <script>
 (() => {
-  const btn = document.querySelector('.menu-toggle'); const panel = document.getElementById('mobile-menu');
+  const btn = document.querySelector('.menu-toggle');
+  const panel = document.getElementById('mobile-menu');
   if (!btn || !panel) return;
-  const open = () => { document.body.classList.add('menu-open'); panel.hidden=false; btn.setAttribute('aria-expanded','true'); };
-  const close = () => { document.body.classList.remove('menu-open'); panel.hidden=true; btn.setAttribute('aria-expanded','false'); };
-  btn.addEventListener('click', () => btn.getAttribute('aria-expanded')==='true'?close():open());
+
+  const open = () => { document.body.classList.add('menu-open'); panel.hidden = false; btn.setAttribute('aria-expanded','true'); };
+  const close = () => { document.body.classList.remove('menu-open'); panel.hidden = true; btn.setAttribute('aria-expanded','false'); };
+
+  btn.addEventListener('click', () => {
+    const expanded = btn.getAttribute('aria-expanded') === 'true';
+    expanded ? close() : open();
+  });
+
   panel.addEventListener('click', e => { if (e.target.closest('a')) close(); });
-  window.addEventListener('keydown', e => { if (e.key==='Escape') close(); });
+  window.addEventListener('keydown', e => { if (e.key === 'Escape') close(); });
 })();
 </script>
 </body>
