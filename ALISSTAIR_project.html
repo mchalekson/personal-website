@@ -3,31 +3,24 @@
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <title>ALISSTAIR — UCLA STATS 10</title>
-  <link rel="stylesheet" href="styles.css?v=final1">
-  <link rel="icon" href="assets/favicon.svg" />
+  <link rel="stylesheet" href="styles.css?v=final2">
 </head>
 <body>
 <header class="header">
   <div class="navbar container">
-    <div class="brand">
-      <span class="brand-badge">MC</span>
-      <small>Max Chalekson</small>
-    </div>
+    <div class="brand"><span class="brand-badge">MC</span><small>Max Chalekson</small></div>
 
-    <!-- Desktop nav -->
     <nav class="navlinks">
       <a href="index.html">Home</a>
       <a href="projects.html">Projects</a>
       <a href="publications.html">Publications</a>
     </nav>
 
-    <!-- Mobile hamburger -->
     <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
       <span class="bars"><span></span></span>
     </button>
   </div>
 
-  <!-- Mobile sheet -->
   <div id="mobile-menu" class="mobile-menu" hidden>
     <div class="mobile-menu__sheet">
       <div class="mobile-menu__card">
@@ -42,72 +35,39 @@
 </header>
 
 <main class="container narrow">
-  <h1 class="headline" style="font-size:40px;margin:28px 0 8px">ALISSTAIR — UCLA STATS 10</h1>
-  <p class="dek" style="margin-bottom:22px">
-    ALISSTAIR (Artificial Language Intelligence System for Statistical Teaching Aid and Individualized Response) is an
-    LLM‑guided set of labs and helpers designed to support introductory statistics learners. We focused on clarity,
-    step‑by‑step feedback, and lightweight evaluation to inform improvements across the quarter.
-  </p>
+  <nav class="breadcrumbs"><a href="projects.html">Projects</a> <span>/</span> ALISSTAIR — UCLA STATS 10</nav>
 
-  <div class="card" style="padding:0;overflow:hidden">
-    <div class="thumb thumb--fit"><img src="ALISSTAIR_photo.png" alt="ALISSTAIR UI screenshot"></div>
-  </div>
+  <article class="project-article">
+    <figure class="project-hero">
+      <img src="ALISSTAIR_photo.png" alt="ALISSTAIR UI screenshot">
+    </figure>
 
-  <section style="margin-top:28px">
-    <h2 class="eyebrow">My role</h2>
-    <ul>
-      <li>Co‑designed lab prompts and grading rubrics to align with course objectives.</li>
-      <li>Built evaluation checks to track misunderstanding patterns and iterate on prompts.</li>
-      <li>Coordinated rollout & documentation for TAs and students.</li>
-    </ul>
-  </section>
+    <h1>ALISSTAIR — UCLA STATS 10</h1>
+    <p class="lead">
+      ALISSTAIR is an LLM‑guided set of labs and helpers designed to support introductory statistics learners,
+      with emphasis on clarity, step‑by‑step feedback, and lightweight evaluation.
+    </p>
 
-  <section style="margin-top:28px">
-    <h2 class="eyebrow">Try it</h2>
     <p>
-      Explore the live ALISSTAIR demo:
-      <a class="btn btn--outline" href="https://chat.openai.com/g/g-QfDmRy9AB-alisstair-stats-10" target="_blank" rel="noopener">
-        Launch ALISSTAIR
+      <a class="btn btn--solid" href="https://chat.openai.com/g/g-QfDmRy9AB-alisstair-stats-10" target="_blank" rel="noopener">
+        Try ALISSTAIR
       </a>
     </p>
-  </section>
+  </article>
 </main>
 
 <footer class="footer"><div class="container">© 2025 Maxwell Chalekson</div></footer>
-</body>
 
 <script>
 (() => {
-  const btn = document.querySelector('.menu-toggle');
-  const panel = document.getElementById('mobile-menu');
+  const btn = document.querySelector('.menu-toggle'); const panel = document.getElementById('mobile-menu');
   if (!btn || !panel) return;
-
-  const open = () => {
-    document.body.classList.add('menu-open');
-    panel.hidden = false;
-    btn.setAttribute('aria-expanded', 'true');
-  };
-  const close = () => {
-    document.body.classList.remove('menu-open');
-    panel.hidden = true;
-    btn.setAttribute('aria-expanded', 'false');
-  };
-
-  btn.addEventListener('click', () => {
-    const expanded = btn.getAttribute('aria-expanded') === 'true';
-    expanded ? close() : open();
-  });
-
-  // Close when tapping any link in the sheet
-  panel.addEventListener('click', e => {
-    const a = e.target.closest('a');
-    if (a) close();
-  });
-
-  // ESC to close
-  window.addEventListener('keydown', e => {
-    if (e.key === 'Escape') close();
-  });
+  const open = () => { document.body.classList.add('menu-open'); panel.hidden=false; btn.setAttribute('aria-expanded','true'); };
+  const close = () => { document.body.classList.remove('menu-open'); panel.hidden=true; btn.setAttribute('aria-expanded','false'); };
+  btn.addEventListener('click', () => btn.getAttribute('aria-expanded')==='true'?close():open());
+  panel.addEventListener('click', e => { if (e.target.closest('a')) close(); });
+  window.addEventListener('keydown', e => { if (e.key==='Escape') close(); });
 })();
 </script>
+</body>
 </html>

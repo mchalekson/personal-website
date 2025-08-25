@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Undergraduate TA — UCLA STATS 20</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=final2">
 </head>
 <body>
 <header class="header">
@@ -13,20 +13,17 @@
       <small>Max Chalekson</small>
     </div>
 
-    <!-- Desktop nav -->
     <nav class="navlinks">
       <a href="index.html">Home</a>
       <a href="projects.html">Projects</a>
       <a href="publications.html">Publications</a>
     </nav>
 
-    <!-- Mobile hamburger -->
     <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
       <span class="bars"><span></span></span>
     </button>
   </div>
 
-  <!-- Mobile sheet -->
   <div id="mobile-menu" class="mobile-menu" hidden>
     <div class="mobile-menu__sheet">
       <div class="mobile-menu__card">
@@ -69,40 +66,17 @@
 </main>
 
 <footer class="footer"><div class="container">© 2025 Maxwell Chalekson</div></footer>
-</body>
 
 <script>
 (() => {
-  const btn = document.querySelector('.menu-toggle');
-  const panel = document.getElementById('mobile-menu');
+  const btn = document.querySelector('.menu-toggle'); const panel = document.getElementById('mobile-menu');
   if (!btn || !panel) return;
-
-  const open = () => {
-    document.body.classList.add('menu-open');
-    panel.hidden = false;
-    btn.setAttribute('aria-expanded', 'true');
-  };
-  const close = () => {
-    document.body.classList.remove('menu-open');
-    panel.hidden = true;
-    btn.setAttribute('aria-expanded', 'false');
-  };
-
-  btn.addEventListener('click', () => {
-    const expanded = btn.getAttribute('aria-expanded') === 'true';
-    expanded ? close() : open();
-  });
-
-  // Close when tapping any link in the sheet
-  panel.addEventListener('click', e => {
-    const a = e.target.closest('a');
-    if (a) close();
-  });
-
-  // ESC to close
-  window.addEventListener('keydown', e => {
-    if (e.key === 'Escape') close();
-  });
+  const open = () => { document.body.classList.add('menu-open'); panel.hidden=false; btn.setAttribute('aria-expanded','true'); };
+  const close = () => { document.body.classList.remove('menu-open'); panel.hidden=true; btn.setAttribute('aria-expanded','false'); };
+  btn.addEventListener('click', () => btn.getAttribute('aria-expanded')==='true'?close():open());
+  panel.addEventListener('click', e => { if (e.target.closest('a')) close(); });
+  window.addEventListener('keydown', e => { if (e.key==='Escape') close(); });
 })();
 </script>
+</body>
 </html>

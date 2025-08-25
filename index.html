@@ -5,21 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Maxwell Chalekson</title>
   <meta name="description" content="Maxwell Chalekson — data scientist exploring multimodal AI for teams & behavior." />
-  <link rel="stylesheet" href="styles.css?v=final1" />
+  <link rel="stylesheet" href="styles.css?v=final2" />
   <link rel="icon" href="assets/favicon.svg" />
 </head>
 <body>
-  <!-- Sticky header -->
 <header class="header">
   <div class="navbar container">
-    <div class="brand">
-      <span class="brand-badge">MC</span>
-      <small>Max Chalekson</small>
-    </div>
+    <div class="brand"><span class="brand-badge">MC</span><small>Max Chalekson</small></div>
 
     <!-- Desktop nav -->
     <nav class="navlinks">
-      <a href="index.html">Home</a>
+      <a class="active" href="index.html">Home</a>
       <a href="projects.html">Projects</a>
       <a href="publications.html">Publications</a>
     </nav>
@@ -44,113 +40,83 @@
   </div>
 </header>
 
-  <!-- Split hero -->
-  <section class="hero-split">
-    <div class="hero-left">
-      <p class="eyebrow">hi, i’m</p>
-      <h1 class="headline"><span class="highlight">Maxwell Chalekson</span></h1>
-      <p class="dek">
-        Early‑career data scientist exploring how multimodal AI helps teams reason and make decisions.
-        Currently at Northwestern’s NICO, building analysis tools and experimenting with LLM‑assisted annotation.
-      </p>
-      <div class="actions">
-        <a class="btn btn--solid" href="projects.html">See projects</a>
-        <a class="btn btn--outline" href="publications.html">Publications</a>
-      </div>
+<!-- Split hero -->
+<section class="hero-split">
+  <div class="hero-left">
+    <p class="eyebrow">hi, i’m</p>
+    <h1 class="headline"><span class="highlight">Maxwell Chalekson</span></h1>
+    <p class="dek">
+      Early‑career data scientist exploring how multimodal AI helps teams reason and make decisions.
+      Currently at Northwestern’s NICO, building analysis tools and experimenting with LLM‑assisted annotation.
+    </p>
+    <div class="actions">
+      <a class="btn btn--solid" href="projects.html">See projects</a>
+      <a class="btn btn--outline" href="publications.html">Publications</a>
     </div>
+  </div>
 
-    <div class="hero-right">
-      <img src="hero-art.png" alt="Editorial artwork of Max at desk" class="hero-art" onerror="this.remove()" />
-      <svg class="hatch" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
-        <defs>
-          <pattern id="lines" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
-            <line x1="0" y1="0" x2="0" y2="4" stroke="rgba(255,255,255,.08)" stroke-width="1" />
-          </pattern>
-        </defs>
-        <rect width="100%" height="100%" fill="url(#lines)" />
-      </svg>
+  <div class="hero-right">
+    <img src="hero-art.png" alt="Editorial artwork of Max at desk" class="hero-art" onerror="this.remove()" />
+    <svg class="hatch" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+      <defs>
+        <pattern id="lines" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+          <line x1="0" y1="0" x2="0" y2="4" stroke="rgba(255,255,255,.08)" stroke-width="1" />
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#lines)" />
+    </svg>
+  </div>
+</section>
+
+<main class="container">
+  <!-- Featured Projects -->
+  <section aria-labelledby="projects-preview">
+    <h2 id="projects-preview" class="eyebrow" style="letter-spacing:.18em;margin:0 0 12px">Featured</h2>
+    <div class="grid">
+      <a class="card" href="nico-convergence.html">
+        <div class="thumb"><img src="nico-photo.png" alt="NICO convergence project thumbnail" /></div>
+        <h3>Idea Convergence/Divergence — NICO</h3>
+        <p>Multimodal annotation, agreement metrics, actionable summaries.</p>
+      </a>
+      <a class="card" href="ALISSTAIR_project.html">
+        <div class="thumb thumb--fit"><img src="ALISSTAIR_photo.png" alt="ALISSTAIR project screenshot" /></div>
+        <h3>ALISSTAIR Implementation — UCLA STATS 10</h3>
+        <p>LLM‑guided labs; evaluation and rollout.</p>
+      </a>
     </div>
   </section>
 
-  <!-- Main content -->
-  <main class="container">
-    <!-- Featured Projects -->
-    <section aria-labelledby="projects-preview">
-      <h2 id="projects-preview" class="eyebrow" style="letter-spacing:.18em;margin:0 0 12px">Featured</h2>
-      <div class="grid">
-        <a class="card" href="nico-convergence.html">
-          <div class="thumb"><img src="nico-photo.png" alt="NICO convergence project thumbnail" /></div>
-          <h3>Idea Convergence/Divergence — NICO</h3>
-          <p>Multimodal annotation, agreement metrics, actionable summaries.</p>
-        </a>
-        <a class="card" href="ALISSTAIR_project.html">
-          <div class="thumb thumb--fit"><img src="ALISSTAIR_photo.png" alt="ALISSTAIR project thumbnail" /></div>
-          <h3>ALISSTAIR Implementation — UCLA STATS 10</h3>
-          <p>LLM‑guided labs; evaluation and rollout.</p>
-        </a>
-      </div>
-    </section>
-
-    <!-- Bio snippet -->
-    <section class="about">
-      <div class="about-card">
-        <div class="about-grid">
-          <img src="profile_pic.jpeg" alt="Portrait of Maxwell Chalekson" class="about-photo" />
-          <div class="about-text">
-            <p>
-              Right now, I’m exploring how multimodal AI can help teams reason more clearly, resolve disagreements,
-              and generate knowledge together — part of my research at Northwestern’s NICO.
-            </p>
-            <p>
-              Outside of work, I spend my free time training for marathons, bouldering,
-              dabbling in photography, and cooking.
-            </p>
-            <p>
-              You can contact me at <a href="mailto:mchalekson@u.northwestern.edu">mchalekson@u.northwestern.edu</a>.
-            </p>
-          </div>
+  <!-- About text -->
+  <section class="about" aria-labelledby="about-title">
+    <h2 id="about-title" class="eyebrow">About</h2>
+    <div class="about-card">
+      <div class="about-grid">
+        <img src="profile_pic.jpeg" alt="Portrait of Maxwell Chalekson" class="about-photo" />
+        <div class="about-text">
+          <p>
+            I like building reliable, readable analysis pipelines and shipping simple experiments that teach us something new.
+            Outside of work, I spend my free time training for marathons, bouldering, dabbling in photography, and cooking.
+            You can contact me at <a href="mailto:mchalekson@u.northwestern.edu">mchalekson@u.northwestern.edu</a>.
+          </p>
         </div>
       </div>
-    </section>
-  </main>
+    </div>
+  </section>
+</main>
 
-  <footer class="footer">
-    <div class="container">© 2025 Maxwell Chalekson</div>
-  </footer>
-</body>
+<footer class="footer"><div class="container">© 2025 Maxwell Chalekson</div></footer>
 
 <script>
 (() => {
   const btn = document.querySelector('.menu-toggle');
   const panel = document.getElementById('mobile-menu');
   if (!btn || !panel) return;
-
-  const open = () => {
-    document.body.classList.add('menu-open');
-    panel.hidden = false;
-    btn.setAttribute('aria-expanded', 'true');
-  };
-  const close = () => {
-    document.body.classList.remove('menu-open');
-    panel.hidden = true;
-    btn.setAttribute('aria-expanded', 'false');
-  };
-
-  btn.addEventListener('click', () => {
-    const expanded = btn.getAttribute('aria-expanded') === 'true';
-    expanded ? close() : open();
-  });
-
-  // Close when tapping any link in the sheet
-  panel.addEventListener('click', e => {
-    const a = e.target.closest('a');
-    if (a) close();
-  });
-
-  // ESC to close
-  window.addEventListener('keydown', e => {
-    if (e.key === 'Escape') close();
-  });
+  const open = () => { document.body.classList.add('menu-open'); panel.hidden = false; btn.setAttribute('aria-expanded','true'); };
+  const close = () => { document.body.classList.remove('menu-open'); panel.hidden = true; btn.setAttribute('aria-expanded','false'); };
+  btn.addEventListener('click', () => btn.getAttribute('aria-expanded')==='true'?close():open());
+  panel.addEventListener('click', e => { if (e.target.closest('a')) close(); });
+  window.addEventListener('keydown', e => { if (e.key === 'Escape') close(); });
 })();
 </script>
+</body>
 </html>
