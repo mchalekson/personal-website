@@ -1,67 +1,101 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maxwell Chalekson</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Corrected the path -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Maxwell Chalekson</title>
+  <meta name="description" content="Maxwell Chalekson — data scientist exploring multimodal AI for teams & behavior." />
+  <link rel="stylesheet" href="styles.css?v=final1" />
+  <link rel="icon" href="assets/favicon.svg" />
 </head>
 <body>
-
-    <div class="container">
-        <a href="index.html">⌂</a> | <a href="projects.html">Projects</a>
-
-        <img src="profile_pic.jpeg" alt="Maxwell Chalekson" class="profile-image">
-
-        <div class="about-text">
-    <h1>Maxwell Chalekson</h1>
-           <p>
-  I am an M.S. Data Science student at Northwestern University, passionate about AI, machine learning, and data-driven problem solving. At UCLA, I worked in the Trustworthy AI Lab on reliability and optimization, analyzing large language models and improving computational efficiency. At Northwestern's NICO, I am currently researching how multimodal AI can support team dynamics, strengthen work practices, and generate knowledge.
-</p>
-
-
-            <p>
-                Outside of work, I spend my free time training for marathons, bouldering, dabbling in photography, and cooking. 
-            </p>
-
-            <p>
-                You can contact me at mchalekson@u.northwestern.edu
-            </p>
-        </div>
-
-        
-
-        <div class="education">
-            <h2>Education</h2>
-            <p><strong>Northwestern University</strong> | Chicago, IL</p>
-            <p>M.S. in Data Science (Sept 2025 - Sept 2026)</p>
-
-            <p><strong>University of California, Los Angeles (UCLA)</strong> | Los Angeles, CA</p>
-            <p>B.S. in Statistics and Data Science (Sept 2021 - June 2025)</p>
-        </div>
-
-<div class="experience">
-    <h2>Experience</h2>
-
-    <p><strong>Northwestern University</strong></p>
-    <p><strong>NICO (Northwestern Institute on Complex Systems)</strong></p>
-    <p>Research Collaborator (June 2025 - Present)</p>
-
-    <p><strong>Trustworthy AI Lab - UCLA</strong></p>
-    <p>Research Assistant (Sept 2024 - Feb 2025)</p>
-
-    <p><strong>UCLA</strong></p>
-    <p>Undergraduate Researcher (May 2024 - Dec 2024)</p>
-    <p>Undergraduate Teaching Assistant (Dec 2022 - Dec 2024)</p>
-
-    <p><strong>Manhattan West</strong></p>
-    <p>Data Analyst Intern (June 2023 - Aug 2023)</p>
-</div>
-
-    <div class="copyright">
-        &copy; 2025 Maxwell Chalekson
+  <!-- Sticky header -->
+  <header class="header">
+    <div class="navbar container">
+      <div class="brand">
+        <span class="brand-badge">MC</span>
+        <small>Max Chalekson</small>
+      </div>
+      <nav class="navlinks">
+        <a class="active" href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="publications.html">Publications</a>
+      </nav>
     </div>
-    
+  </header>
 
+  <!-- Split hero -->
+  <section class="hero-split">
+    <div class="hero-left">
+      <p class="eyebrow">hi, i’m</p>
+      <h1 class="headline"><span class="highlight">Maxwell Chalekson</span></h1>
+      <p class="dek">
+        Early‑career data scientist exploring how multimodal AI helps teams reason and make decisions.
+        Currently at Northwestern’s NICO, building analysis tools and experimenting with LLM‑assisted annotation.
+      </p>
+      <div class="actions">
+        <a class="btn btn--solid" href="projects.html">See projects</a>
+        <a class="btn btn--outline" href="publications.html">Publications</a>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <img src="hero-art.png" alt="Editorial artwork of Max at desk" class="hero-art" onerror="this.remove()" />
+      <svg class="hatch" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+        <defs>
+          <pattern id="lines" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+            <line x1="0" y1="0" x2="0" y2="4" stroke="rgba(255,255,255,.08)" stroke-width="1" />
+          </pattern>
+        </defs>
+        <rect width="100%" height="100%" fill="url(#lines)" />
+      </svg>
+    </div>
+  </section>
+
+  <!-- Main content -->
+  <main class="container">
+    <!-- Featured Projects -->
+    <section aria-labelledby="projects-preview">
+      <h2 id="projects-preview" class="eyebrow" style="letter-spacing:.18em;margin:0 0 12px">Featured</h2>
+      <div class="grid">
+        <a class="card" href="nico-convergence.html">
+          <div class="thumb"><img src="nico-photo.png" alt="NICO convergence project thumbnail" /></div>
+          <h3>Idea Convergence/Divergence — NICO</h3>
+          <p>Multimodal annotation, agreement metrics, actionable summaries.</p>
+        </a>
+        <a class="card" href="ALISSTAIR_project.html">
+          <div class="thumb thumb--fit"><img src="ALISSTAIR_photo.png" alt="ALISSTAIR project thumbnail" /></div>
+          <h3>ALISSTAIR Implementation — UCLA STATS 10</h3>
+          <p>LLM‑guided labs; evaluation and rollout.</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- Bio snippet -->
+    <section class="about">
+      <div class="about-card">
+        <div class="about-grid">
+          <img src="profile_pic.jpeg" alt="Portrait of Maxwell Chalekson" class="about-photo" />
+          <div class="about-text">
+            <p>
+              Right now, I’m exploring how multimodal AI can help teams reason more clearly, resolve disagreements,
+              and generate knowledge together — part of my research at Northwestern’s NICO.
+            </p>
+            <p>
+              Outside of work, I spend my free time training for marathons, bouldering,
+              dabbling in photography, and cooking.
+            </p>
+            <p>
+              You can contact me at <a href="mailto:mchalekson@u.northwestern.edu">mchalekson@u.northwestern.edu</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">© 2025 Maxwell Chalekson</div>
+  </footer>
 </body>
 </html>
