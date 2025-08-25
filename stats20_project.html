@@ -8,14 +8,35 @@
 <body>
 <header class="header">
   <div class="navbar container">
-    <div class="brand"><span class="brand-badge">MC</span><small>Max Chalekson</small></div>
+    <div class="brand">
+      <span class="brand-badge">MC</span>
+      <small>Max Chalekson</small>
+    </div>
+
+    <!-- Desktop nav stays the same -->
     <nav class="navlinks">
-      <a href="index.html">Home</a>
+      <a class="active" href="index.html">Home</a>
       <a href="projects.html">Projects</a>
       <a href="publications.html">Publications</a>
-      <a href="about.html">About</a>
-      <a href="CV.pdf" target="_blank" rel="noopener">CV</a>
     </nav>
+
+    <!-- Mobile hamburger (shown under 900px) -->
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+      <span class="bars"><span></span></span>
+    </button>
+  </div>
+
+  <!-- Mobile panel -->
+  <div id="mobile-menu" class="mobile-menu" hidden>
+    <div class="mobile-menu__sheet">
+      <div class="mobile-menu__card">
+        <nav class="mobile-menu__links">
+          <a href="index.html"><span>Home</span></a>
+          <a href="projects.html"><span>Projects</span></a>
+          <a href="publications.html"><span>Publications</span></a>
+        </nav>
+      </div>
+    </div>
   </div>
 </header>
 
