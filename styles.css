@@ -146,6 +146,23 @@ img{max-width:100%;display:block;border-radius:12px}
 }
 .mobile-menu__links a:hover{ background:color-mix(in oklab, var(--card) 70%, var(--text) 6%) }
 
+/* --- Harden mobile button look (fixes the white circle) --- */
+.menu-toggle{
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;      /* never a filled circle */
+  border: 0;
+  padding: 10px;
+  border-radius: 12px;
+  color: var(--text);
+}
+.menu-toggle:focus-visible{
+  outline: 2px solid var(--accent2);
+  outline-offset: 2px;
+}
+/* a little visual feedback when the sheet is open */
+.menu-open .menu-toggle{ background: color-mix(in oklab, var(--card) 75%, var(--text) 6%); }
+
 /* Hide desktop nav on phones, show hamburger */
 @media (max-width:900px){
   .navlinks{ display:none; }
