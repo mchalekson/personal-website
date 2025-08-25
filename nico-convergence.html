@@ -4,23 +4,49 @@
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <title>NICO — Idea Convergence/Divergence</title>
   <link rel="stylesheet" href="styles.css?v=final2">
+  <!-- Page-local polish for the hero image -->
+  <style>
+    .project-hero{
+      border:1px solid var(--border);
+      border-radius:16px;
+      overflow:hidden;
+      background:var(--surface);
+      box-shadow:var(--shadow);
+      margin:0 0 18px;
+    }
+    .project-hero img{
+      width:100%;
+      max-height:420px;            /* keeps square images from getting too tall */
+      object-fit:contain;          /* no cropping; pads with the card bg */
+      background:var(--surface);
+      display:block;
+    }
+    .lead{font-size:1.05rem;color:var(--text);margin:10px 0 18px}
+    .muted{color:var(--muted)}
+    .bullets{margin:0 0 6px 1.1em}
+    .bullets li{margin:.35em 0}
+    .section{margin-top:22px}
+  </style>
 </head>
 <body>
 <header class="header">
   <div class="navbar container">
     <div class="brand"><span class="brand-badge">MC</span><small>Max Chalekson</small></div>
 
+    <!-- Desktop nav -->
     <nav class="navlinks">
       <a href="index.html">Home</a>
       <a href="projects.html">Projects</a>
       <a href="publications.html">Publications</a>
     </nav>
 
+    <!-- Mobile hamburger -->
     <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
       <span class="bars"><span></span></span>
     </button>
   </div>
 
+  <!-- Mobile sheet -->
   <div id="mobile-menu" class="mobile-menu" hidden>
     <div class="mobile-menu__sheet">
       <div class="mobile-menu__card">
@@ -39,14 +65,55 @@
 
   <article class="project-article">
     <figure class="project-hero">
-      <img src="nico-photo.png" alt="NICO convergence thumbnail">
+      <img src="nico-photo.png" alt="NICO project thumbnail: multimodal annotation, agreement metrics, and summaries">
     </figure>
 
     <h1>Idea Convergence/Divergence — NICO</h1>
+
     <p class="lead">
-      Measuring when a group’s ideas converge or diverge, with multimodal annotation (text, audio, video),
-      human↔LLM agreement metrics, and concise actionable summaries for teams.
+      I’m exploring how <strong>multimodal AI</strong> can help teams understand when their ideas
+      <strong>converge</strong> (align) or <strong>diverge</strong> (spread out)—and why. The goal is to provide
+      researchers with <strong>actionable insight</strong> into discussion quality and decision‑making.
     </p>
+
+    <p class="muted"><em>Northwestern Institute on Complex Systems (NICO)</em></p>
+
+    <div class="section">
+      <h2 class="eyebrow">Overview</h2>
+      <p>
+        We analyze group discussions captured as <strong>text, audio, and video</strong> to detect phases of
+        convergence and divergence. We then align <strong>human</strong> and <strong>LLM</strong> judgments to
+        quantify agreement and surface <strong>concise summaries</strong> that explain what moved the team
+        closer together or further apart.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2 class="eyebrow">What I built</h2>
+      <ul class="bullets">
+        <li><strong>Annotation pipeline</strong> for multimodal segments (speaker turns, topics, sentiment, stance).</li>
+        <li><strong>Agreement metrics</strong> comparing expert labels with LLM outputs (per‑segment and session‑level).</li>
+        <li><strong>Insight summaries</strong> highlighting moments that triggered convergence/divergence.</li>
+        <li><strong>Lightweight dashboards</strong> for browsing sessions and exporting figures for reports.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2 class="eyebrow">Methods</h2>
+      <ul class="bullets">
+        <li>Hybrid labeling: targeted <em>human‑in‑the‑loop</em> checks over LLM first‑pass annotations.</li>
+        <li>Text embeddings + clustering for topic flow; audio features for prosody/turn‑taking dynamics.</li>
+        <li>Simple, transparent agreement stats first (e.g., % match, Cohen’s κ), then task‑specific scores.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2 class="eyebrow">Status</h2>
+      <p>
+        We’re iterating on label schemas and evaluation, and packaging the tooling for collaborators at NICO.
+        If you’re interested in collaboration, feel free to <a href="mailto:mchalekson@u.northwestern.edu">email me</a>.
+      </p>
+    </div>
   </article>
 </main>
 
@@ -54,13 +121,18 @@
 
 <script>
 (() => {
-  const btn = document.querySelector('.menu-toggle'); const panel = document.getElementById('mobile-menu');
+  const btn = document.querySelector('.menu-toggle');
+  const panel = document.getElementById('mobile-menu');
   if (!btn || !panel) return;
+
   const open = () => { document.body.classList.add('menu-open'); panel.hidden=false; btn.setAttribute('aria-expanded','true'); };
   const close = () => { document.body.classList.remove('menu-open'); panel.hidden=true; btn.setAttribute('aria-expanded','false'); };
-  btn.addEventListener('click', () => btn.getAttribute('aria-expanded')==='true'?close():open());
+
+  btn.addEventListener('click', () => {
+    btn.getAttribute('aria-expanded') === 'true' ? close() : open();
+  });
   panel.addEventListener('click', e => { if (e.target.closest('a')) close(); });
-  window.addEventListener('keydown', e => { if (e.key==='Escape') close(); });
+  window.addEventListener('keydown', e => { if (e.key === 'Escape') close(); });
 })();
 </script>
 </body>
