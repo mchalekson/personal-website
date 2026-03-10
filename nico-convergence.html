@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>NICO — Idea Convergence/Divergence</title>
+  <title>NICO — Multimodal Team Science at NICO</title>
   <link rel="stylesheet" href="styles.css?v=final3">
 </head>
 <body>
@@ -35,18 +35,84 @@
 </header>
 
 <main class="container narrow">
-  <nav class="breadcrumbs"><a href="projects.html">Projects</a> <span>/</span> NICO — Team-Multimodal</nav>
+  <nav class="breadcrumbs"><a href="projects.html">Projects</a> <span>/</span> NICO — Multimodal Team Science</nav>
 
   <article class="project-article">
     <figure class="project-hero">
       <img src="nico-photo.png" alt="NICO convergence thumbnail">
     </figure>
 
-    <h1>Multimodal Scientific Team Collaboration Research — NICO</h1>
+    <h1>Multimodal Team Science Research — NICO</h1>
     <p class="lead">
-      This ongoing project is conducted under <strong>Dr. Evey Huang</strong> at the Northwestern Institute on Complex Systems (NICO), 
-      in collaboration with <strong>Prof. Brian Uzzi</strong>. Our research investigates how multimodal AI can help teams reason, 
-      align, and generate knowledge in scientific contexts.
+      This ongoing project is conducted with <strong>Dr. Evey Huang</strong> at the Northwestern Institute on Complex Systems (NICO),
+      in collaboration with <strong>Dr. Matt Groh</strong> and <strong>Prof. Brian Uzzi</strong>. We use multimodal AI to study how
+      real-world teams collaborate, with the goal of moving organizations from intuition and annual surveys toward richer,
+      evidence-based measures of what makes teams succeed or fail.
+    </p>
+
+    <p class="muted"><em>Northwestern University · Ongoing research project</em></p>
+
+    <h2>Project overview</h2>
+    <p>
+      This larger research effort builds multimodal AI systems that analyze video, audio, and language from real team interactions.
+      The broader aim is to make hard-to-observe collaboration signals measurable at scale: participation dynamics, turn-taking,
+      idea-building versus blocking behaviors, coordination patterns, and how teams respond to disagreement over time.
+    </p>
+
+    <p>
+      One core dataset in the project uses <strong>SCIALOG</strong> scientific team meetings from 2020 to 2022.
+      Those sessions include timestamped utterances and human annotations for <strong>Coordination and Decision Practices (CDP)</strong>,
+      which make it possible to study how teams organize discussion, make decisions, and form successful collaborations.
+    </p>
+
+    <h2>What I work on</h2>
+    <p>
+      My contribution sits inside that broader multimodal team-science agenda. I focus on the computational layer that turns meeting
+      transcripts and annotations into analyzable structure, especially around coordination, convergence, and outcome prediction.
+    </p>
+    <ul class="bullets">
+      <li><strong>Coordination modeling:</strong> measuring how teams mix basic coordination and higher-level decision practices across a meeting.</li>
+      <li><strong>Temporal analysis:</strong> testing whether teams converge toward narrower coordination strategies over time.</li>
+      <li><strong>Fuzzy linkography implementation:</strong> building semantic link metrics over sequential utterances to capture global relational structure in discussions.</li>
+      <li><strong>Outcome analysis:</strong> connecting meeting behavior to whether resulting teams receive funding.</li>
+    </ul>
+
+    <h2>Why the broader project matters</h2>
+    <p>
+      Organizations often care about psychological safety, open collaboration, and healthy decision-making, but they rarely have a reliable
+      way to observe those dynamics in practice. This project treats that gap as both a scientific problem and a systems-design problem:
+      how to build scalable AI measurement grounded in organizational theory rather than surface-level sentiment alone.
+    </p>
+
+    <h2>Selected findings</h2>
+    <p>
+      In the current analyses, teams generally do <strong>not</strong> converge to a single focused coordination style by the end of a meeting.
+      Instead, they maintain a relatively stable mix of structuring behavior and decision-making throughout the conversation.
+      A newer fuzzy-linkography layer extends that work by modeling semantic connections between utterances and testing which interaction patterns relate to funded versus unfunded sessions.
+    </p>
+
+    <h2>Why it matters</h2>
+    <p>
+      Scientific collaboration is not just about good ideas. It also depends on how teams coordinate, distribute decision-making,
+      and connect ideas over time. This work aims to make those interaction patterns measurable so researchers can better understand
+      how productive teams form and how early collaboration dynamics relate to later success.
+    </p>
+
+    <h2>Current status</h2>
+    <p>
+      This page reflects ongoing work documented in internal project summaries on CDP analysis and fuzzy linkography,
+      and it supports an in-preparation manuscript, <strong>Multimodal Scientific Team Communication</strong>,
+      listed on my <a href="publications.html">Publications</a> page with Huang, Chalekson, and Uzzi (NICO, 2025).
+    </p>
+
+    <p>
+      Related broader project outputs include an <strong>in-review Point of View article</strong> for the
+      <strong>Journal of Organizational Design</strong> (2026) and recognition as a <strong>finalist</strong>
+      in the <strong>AI for Organizations Grand Challenge</strong> organized by Google DeepMind and Stanford HAI in 2025.
+    </p>
+
+    <p class="muted">
+      <em>Collaborators: Dr. Evey Huang, Dr. Matt Groh, Prof. Brian Uzzi, and Max Chalekson.</em>
     </p>
 
   </article>
