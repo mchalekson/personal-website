@@ -199,10 +199,13 @@ img{max-width:100%;display:block;border-radius:12px}
 .card{
   background:var(--card);border:1px solid var(--border);
   border-radius:var(--radius);box-shadow:var(--shadow);padding:14px;
-  transition:transform .15s ease;
+  transition:transform .15s ease,border-color .16s ease;
   cursor:pointer
 }
-.card:hover{transform:translateY(-2px)}
+.card:hover{
+  transform:translateY(-2px);
+  border-color:color-mix(in oklab,var(--accent) 30%,var(--border));
+}
 .card h3{margin:12px 10px 8px}
 .card p{margin:0 10px 12px;color:var(--muted)}
 
